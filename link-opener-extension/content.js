@@ -103,7 +103,7 @@ async function clearAllTikTokVideoSelections() {
     const details = keys.map(k => ({
         handle: k.slice(TIKTOK_SELECTED_VIDEOS_PREFIX.length),
         urls: Array.isArray(all[k]) ? all[k] : []
-    }));
+    })).filter(d => d.urls.length > 0);
     if (keys.length > 0) {
         await safeStorage.remove(keys);
     }
