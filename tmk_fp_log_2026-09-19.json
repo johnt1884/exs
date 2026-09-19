@@ -1,0 +1,3404 @@
+[
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T13:59:53.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pxru59/video/7686874741004602657"
+      },
+      {
+        "date": "2026-09-18T13:59:04.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pxru59/video/7686874531511749920"
+      },
+      {
+        "date": "2026-09-18T08:11:50.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pxru59/video/7686785047243803937"
+      },
+      {
+        "date": "2026-09-18T08:11:06.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pxru59/video/7686784858357517601"
+      }
+    ],
+    "badgeText": "4 new",
+    "baseline": 1789404736000,
+    "baselineDate": "2026-09-14T16:52:16.000Z",
+    "id": "1789775316883_noxi2q",
+    "liveMax": 1789739993000,
+    "liveMaxDate": "2026-09-18T13:59:53.000Z",
+    "loggedAt": "2026-09-18T23:48:36.852Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_pxru59",
+    "scrapeCandidates": [],
+    "ts": 1789775316852,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T13:56:36.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pxuf14/video/7686873892761193735"
+      },
+      {
+        "date": "2026-09-18T08:06:47.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pxuf14/video/7686783746644692232"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789408595000,
+    "baselineDate": "2026-09-14T17:56:35.000Z",
+    "id": "1789775330111_wwrll8",
+    "liveMax": 1789739796000,
+    "liveMaxDate": "2026-09-18T13:56:36.000Z",
+    "loggedAt": "2026-09-18T23:48:50.111Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_pxuf14",
+    "scrapeCandidates": [],
+    "ts": 1789775330111,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T18:10:47.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_r2pt27/video/7686939398759255303"
+      },
+      {
+        "date": "2026-09-18T17:39:20.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_r2pt27/video/7686931291111001352"
+      },
+      {
+        "date": "2026-09-18T17:28:35.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_r2pt27/video/7686928523856006407"
+      },
+      {
+        "date": "2026-09-18T16:13:45.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_r2pt27/video/7686909236512607506"
+      },
+      {
+        "date": "2026-09-18T15:49:31.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_r2pt27/video/7686902990766165256"
+      },
+      {
+        "date": "2026-09-18T15:30:59.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_r2pt27/video/7686898216335346952"
+      },
+      {
+        "date": "2026-09-18T15:14:51.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_r2pt27/video/7686894059415260424"
+      },
+      {
+        "date": "2026-09-18T15:07:02.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_r2pt27/video/7686892044328963335"
+      },
+      {
+        "date": "2026-09-18T14:53:34.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_r2pt27/video/7686888573538241800"
+      }
+    ],
+    "badgeText": "9 new",
+    "baseline": 1789411285000,
+    "baselineDate": "2026-09-14T18:41:25.000Z",
+    "id": "1789775343139_epsuxh",
+    "liveMax": 1789755047000,
+    "liveMaxDate": "2026-09-18T18:10:47.000Z",
+    "loggedAt": "2026-09-18T23:49:03.132Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_r2pt27",
+    "scrapeCandidates": [],
+    "ts": 1789775343132,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789411127000,
+    "baselineDate": "2026-09-14T18:38:47.000Z",
+    "id": "1789775349040_z5t0ho",
+    "liveMax": 1789617901000,
+    "liveMaxDate": "2026-09-17T04:05:01.000Z",
+    "loggedAt": "2026-09-18T23:49:09.039Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_5bq8g9",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T04:05:01.000Z",
+        "url": "https://www.tiktok.com/user_5bq8g9/video/7686350360478305557"
+      },
+      {
+        "date": "2026-09-17T03:55:42.000Z",
+        "url": "https://www.tiktok.com/user_5bq8g9/video/7686347956999458068"
+      },
+      {
+        "date": "2026-09-16T02:25:39.000Z",
+        "url": "https://www.tiktok.com/user_5bq8g9/video/7685953669228956949"
+      },
+      {
+        "date": "2026-09-16T01:28:29.000Z",
+        "url": "https://www.tiktok.com/user_5bq8g9/video/7685938937390468373"
+      },
+      {
+        "date": "2026-09-16T01:26:36.000Z",
+        "url": "https://www.tiktok.com/user_5bq8g9/video/7685938451094572308"
+      },
+      {
+        "date": "2026-09-16T01:26:02.000Z",
+        "url": "https://www.tiktok.com/user_5bq8g9/video/7685938304205786388"
+      },
+      {
+        "date": "2026-09-16T01:25:36.000Z",
+        "url": "https://www.tiktok.com/user_5bq8g9/video/7685938192217918740"
+      },
+      {
+        "date": "2026-09-14T23:04:53.000Z",
+        "url": "https://www.tiktok.com/user_5bq8g9/video/7685530843791740180"
+      },
+      {
+        "date": "2026-09-14T23:03:07.000Z",
+        "url": "https://www.tiktok.com/user_5bq8g9/video/7685530390324432148"
+      }
+    ],
+    "ts": 1789775349039,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T20:34:37.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_v7g7as/video/7686976464012496129"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789421850000,
+    "baselineDate": "2026-09-14T21:37:30.000Z",
+    "id": "1789775360932_fzf330",
+    "liveMax": 1789763677000,
+    "liveMaxDate": "2026-09-18T20:34:37.000Z",
+    "loggedAt": "2026-09-18T23:49:20.829Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_v7g7as",
+    "scrapeCandidates": [],
+    "ts": 1789775360829,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T07:07:27.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_9xr308/video/7686768456594754838"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789388097000,
+    "baselineDate": "2026-09-14T12:14:57.000Z",
+    "id": "1789775364429_1aw0c7",
+    "liveMax": 1789715247000,
+    "liveMaxDate": "2026-09-18T07:07:27.000Z",
+    "loggedAt": "2026-09-18T23:49:24.427Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_9xr308",
+    "scrapeCandidates": [],
+    "ts": 1789775364427,
+    "videoLinksSeen": 18
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T03:04:36.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_k7y4uo/video/7686705875968363790"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789256272000,
+    "baselineDate": "2026-09-12T23:37:52.000Z",
+    "id": "1789775367696_0ydthm",
+    "liveMax": 1789700676000,
+    "liveMaxDate": "2026-09-18T03:04:36.000Z",
+    "loggedAt": "2026-09-18T23:49:27.696Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_k7y4uo",
+    "scrapeCandidates": [],
+    "ts": 1789775367696,
+    "videoLinksSeen": 28
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789255459000,
+    "baselineDate": "2026-09-12T23:24:19.000Z",
+    "id": "1789775370782_b21q7l",
+    "liveMax": 1789255459000,
+    "liveMaxDate": "2026-09-12T23:24:19.000Z",
+    "loggedAt": "2026-09-18T23:49:30.775Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_r1fsay",
+    "scrapeCandidates": [],
+    "ts": 1789775370775,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789405939000,
+    "baselineDate": "2026-09-14T17:12:19.000Z",
+    "id": "1789775372784_grcgfw",
+    "liveMax": 1789529474000,
+    "liveMaxDate": "2026-09-16T03:31:14.000Z",
+    "loggedAt": "2026-09-18T23:49:32.782Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_bm5e4f",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T03:31:14.000Z",
+        "url": "https://www.tiktok.com/user_bm5e4f/video/7685970568998325534"
+      },
+      {
+        "date": "2026-09-15T15:51:14.000Z",
+        "url": "https://www.tiktok.com/user_bm5e4f/video/7685790180942400799"
+      },
+      {
+        "date": "2026-09-15T15:37:08.000Z",
+        "url": "https://www.tiktok.com/user_bm5e4f/video/7685786544967322910"
+      }
+    ],
+    "ts": 1789775372782,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789183360000,
+    "baselineDate": "2026-09-12T03:22:40.000Z",
+    "id": "1789775379624_qu10h3",
+    "liveMax": 1789608311000,
+    "liveMaxDate": "2026-09-17T01:25:11.000Z",
+    "loggedAt": "2026-09-18T23:49:39.531Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_epf66i",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T01:25:11.000Z",
+        "url": "https://www.tiktok.com/user_epf66i/video/7686309169518972181"
+      },
+      {
+        "date": "2026-09-15T03:05:51.000Z",
+        "url": "https://www.tiktok.com/user_epf66i/video/7685592941645040916"
+      },
+      {
+        "date": "2026-09-14T23:09:43.000Z",
+        "url": "https://www.tiktok.com/user_epf66i/video/7685532092742225172"
+      }
+    ],
+    "ts": 1789775379531,
+    "videoLinksSeen": 29
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789332300000,
+    "baselineDate": "2026-09-13T20:45:00.000Z",
+    "id": "1789775390384_ojrcqg",
+    "liveMax": 1789332300000,
+    "liveMaxDate": "2026-09-13T20:45:00.000Z",
+    "loggedAt": "2026-09-18T23:49:50.342Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_q2l98",
+    "scrapeCandidates": [],
+    "ts": 1789775390342,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T00:42:50.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_y5mc0p/video/7686669340342570248"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789253164000,
+    "baselineDate": "2026-09-12T22:46:04.000Z",
+    "id": "1789775392447_jhrhn6",
+    "liveMax": 1789692170000,
+    "liveMaxDate": "2026-09-18T00:42:50.000Z",
+    "loggedAt": "2026-09-18T23:49:52.436Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_y5mc0p",
+    "scrapeCandidates": [],
+    "ts": 1789775392436,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789404464000,
+    "baselineDate": "2026-09-14T16:47:44.000Z",
+    "id": "1789775396364_hwv1c8",
+    "liveMax": 1789404464000,
+    "liveMaxDate": "2026-09-14T16:47:44.000Z",
+    "loggedAt": "2026-09-18T23:49:56.357Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_rkjw4a",
+    "scrapeCandidates": [],
+    "ts": 1789775396357,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T15:32:50.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_hdz1uk/video/7686898692242132257"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789220189000,
+    "baselineDate": "2026-09-12T13:36:29.000Z",
+    "id": "1789775398391_kjslew",
+    "liveMax": 1789745570000,
+    "liveMaxDate": "2026-09-18T15:32:50.000Z",
+    "loggedAt": "2026-09-18T23:49:58.390Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_hdz1uk",
+    "scrapeCandidates": [],
+    "ts": 1789775398390,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T08:30:30.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_yy94h/video/7686789859759099159"
+      },
+      {
+        "date": "2026-09-18T05:07:45.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_yy94h/video/7686737608742931734"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789349626000,
+    "baselineDate": "2026-09-14T01:33:46.000Z",
+    "id": "1789775401771_p6dmy2",
+    "liveMax": 1789720230000,
+    "liveMaxDate": "2026-09-18T08:30:30.000Z",
+    "loggedAt": "2026-09-18T23:50:01.770Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_yy94h",
+    "scrapeCandidates": [],
+    "ts": 1789775401770,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789241586000,
+    "baselineDate": "2026-09-12T19:33:06.000Z",
+    "id": "1789775412707_6gkygp",
+    "liveMax": 1789241586000,
+    "liveMaxDate": "2026-09-12T19:33:06.000Z",
+    "loggedAt": "2026-09-18T23:50:12.706Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_xqr8gg",
+    "scrapeCandidates": [],
+    "ts": 1789775412706,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T02:50:57.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_sv9bu2/video/7686702358415297813"
+      },
+      {
+        "date": "2026-09-18T01:08:31.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_sv9bu2/video/7686675961848401172"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789366005000,
+    "baselineDate": "2026-09-14T06:06:45.000Z",
+    "id": "1789775414741_z1gb9x",
+    "liveMax": 1789699857000,
+    "liveMaxDate": "2026-09-18T02:50:57.000Z",
+    "loggedAt": "2026-09-18T23:50:14.740Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_sv9bu2",
+    "scrapeCandidates": [],
+    "ts": 1789775414740,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789239088000,
+    "baselineDate": "2026-09-12T18:51:28.000Z",
+    "id": "1789775418475_kwcjf9",
+    "liveMax": 1789502430000,
+    "liveMaxDate": "2026-09-15T20:00:30.000Z",
+    "loggedAt": "2026-09-18T23:50:18.463Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_qe2s1u",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-15T20:00:30.000Z",
+        "url": "https://www.tiktok.com/user_qe2s1u/video/7685854413017058582"
+      }
+    ],
+    "ts": 1789775418463,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T15:08:06.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_fepdwb/video/7686892320809028886"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789411851000,
+    "baselineDate": "2026-09-14T18:50:51.000Z",
+    "id": "1789775428224_4eacbt",
+    "liveMax": 1789744086000,
+    "liveMaxDate": "2026-09-18T15:08:06.000Z",
+    "loggedAt": "2026-09-18T23:50:28.189Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_fepdwb",
+    "scrapeCandidates": [],
+    "ts": 1789775428189,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789409981000,
+    "baselineDate": "2026-09-14T18:19:41.000Z",
+    "id": "1789775433077_adu6n7",
+    "liveMax": 1789596043000,
+    "liveMaxDate": "2026-09-16T22:00:43.000Z",
+    "loggedAt": "2026-09-18T23:50:33.076Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_fvx00r",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T22:00:43.000Z",
+        "url": "https://www.tiktok.com/user_fvx00r/video/7686256481561333013"
+      }
+    ],
+    "ts": 1789775433076,
+    "videoLinksSeen": 29
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T18:38:20.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_8noxsz/video/7686946498424147231"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789230412000,
+    "baselineDate": "2026-09-12T16:26:52.000Z",
+    "id": "1789775440241_pv2oxd",
+    "liveMax": 1789756700000,
+    "liveMaxDate": "2026-09-18T18:38:20.000Z",
+    "loggedAt": "2026-09-18T23:50:40.136Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_8noxsz",
+    "scrapeCandidates": [],
+    "ts": 1789775440136,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789258760000,
+    "baselineDate": "2026-09-13T00:19:20.000Z",
+    "id": "1789775443864_vo1y64",
+    "liveMax": 1789597220000,
+    "liveMaxDate": "2026-09-16T22:20:20.000Z",
+    "loggedAt": "2026-09-18T23:50:43.864Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_iyzzi0",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T22:20:20.000Z",
+        "url": "https://www.tiktok.com/user_iyzzi0/video/7686261534665805076"
+      }
+    ],
+    "ts": 1789775443864,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789323478000,
+    "baselineDate": "2026-09-13T18:17:58.000Z",
+    "id": "1789775452702_i27boj",
+    "liveMax": 1789323478000,
+    "liveMaxDate": "2026-09-13T18:17:58.000Z",
+    "loggedAt": "2026-09-18T23:50:52.700Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_l0r9an",
+    "scrapeCandidates": [],
+    "ts": 1789775452700,
+    "videoLinksSeen": 18
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T23:19:51.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_cyan85/video/7687019041600441622"
+      },
+      {
+        "date": "2026-09-18T15:46:29.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_cyan85/video/7686902209539247382"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789416491000,
+    "baselineDate": "2026-09-14T20:08:11.000Z",
+    "id": "1789775454738_nl4hxi",
+    "liveMax": 1789773591000,
+    "liveMaxDate": "2026-09-18T23:19:51.000Z",
+    "loggedAt": "2026-09-18T23:50:54.737Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_cyan85",
+    "scrapeCandidates": [],
+    "ts": 1789775454737,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T19:24:18.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_5vhrnr/video/7686958341377002772"
+      },
+      {
+        "date": "2026-09-18T10:32:13.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_5vhrnr/video/7686821224260832533"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789213894000,
+    "baselineDate": "2026-09-12T11:51:34.000Z",
+    "id": "1789775458377_34qg14",
+    "liveMax": 1789759458000,
+    "liveMaxDate": "2026-09-18T19:24:18.000Z",
+    "loggedAt": "2026-09-18T23:50:58.365Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_5vhrnr",
+    "scrapeCandidates": [],
+    "ts": 1789775458365,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789235411000,
+    "baselineDate": "2026-09-12T17:50:11.000Z",
+    "id": "1789775465414_tm99w1",
+    "liveMax": 1789502910000,
+    "liveMaxDate": "2026-09-15T20:08:30.000Z",
+    "loggedAt": "2026-09-18T23:51:05.413Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_p5h4lh",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-15T20:08:30.000Z",
+        "url": "https://www.tiktok.com/user_p5h4lh/video/7685856477126446344"
+      }
+    ],
+    "ts": 1789775465413,
+    "videoLinksSeen": 30
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T18:05:11.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_8rycvh/video/7686937954735918358"
+      },
+      {
+        "date": "2026-09-18T13:05:12.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_8rycvh/video/7686860650542304534"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789335060000,
+    "baselineDate": "2026-09-13T21:31:00.000Z",
+    "id": "1789775472990_ctym3l",
+    "liveMax": 1789754711000,
+    "liveMaxDate": "2026-09-18T18:05:11.000Z",
+    "loggedAt": "2026-09-18T23:51:12.986Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_8rycvh",
+    "scrapeCandidates": [],
+    "ts": 1789775472986,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789426201000,
+    "baselineDate": "2026-09-14T22:50:01.000Z",
+    "id": "1789775476246_exjopg",
+    "liveMax": 1789594947000,
+    "liveMaxDate": "2026-09-16T21:42:27.000Z",
+    "loggedAt": "2026-09-18T23:51:16.246Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_46gfs1",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T21:42:27.000Z",
+        "url": "https://www.tiktok.com/user_46gfs1/video/7686251770896452895"
+      },
+      {
+        "date": "2026-09-16T19:40:18.000Z",
+        "url": "https://www.tiktok.com/user_46gfs1/video/7686220295862078750"
+      },
+      {
+        "date": "2026-09-16T19:23:53.000Z",
+        "url": "https://www.tiktok.com/user_46gfs1/video/7686216062626434335"
+      }
+    ],
+    "ts": 1789775476246,
+    "videoLinksSeen": 18
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789341369000,
+    "baselineDate": "2026-09-13T23:16:09.000Z",
+    "id": "1789775483143_625kk6",
+    "liveMax": 1789517019000,
+    "liveMaxDate": "2026-09-16T00:03:39.000Z",
+    "loggedAt": "2026-09-18T23:51:23.107Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_k67ste",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T00:03:39.000Z",
+        "url": "https://www.tiktok.com/user_k67ste/video/7685917073125444882"
+      },
+      {
+        "date": "2026-09-16T00:00:27.000Z",
+        "url": "https://www.tiktok.com/user_k67ste/video/7685916248470850834"
+      },
+      {
+        "date": "2026-09-15T00:47:08.000Z",
+        "url": "https://www.tiktok.com/user_k67ste/video/7685557193294384391"
+      }
+    ],
+    "ts": 1789775483107,
+    "videoLinksSeen": 28
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789405235000,
+    "baselineDate": "2026-09-14T17:00:35.000Z",
+    "id": "1789775489171_uj8wv9",
+    "liveMax": 1789588197000,
+    "liveMaxDate": "2026-09-16T19:49:57.000Z",
+    "loggedAt": "2026-09-18T23:51:29.162Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_r1lddw",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T19:49:57.000Z",
+        "url": "https://www.tiktok.com/user_r1lddw/video/7686222779955301654"
+      },
+      {
+        "date": "2026-09-15T07:22:37.000Z",
+        "url": "https://www.tiktok.com/user_r1lddw/video/7685659109512809750"
+      }
+    ],
+    "ts": 1789775489162,
+    "videoLinksSeen": 28
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T03:33:01.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_5h2wfj/video/7686713196169743630"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789182045000,
+    "baselineDate": "2026-09-12T03:00:45.000Z",
+    "id": "1789775495900_5r85k5",
+    "liveMax": 1789702381000,
+    "liveMaxDate": "2026-09-18T03:33:01.000Z",
+    "loggedAt": "2026-09-18T23:51:35.898Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_5h2wfj",
+    "scrapeCandidates": [],
+    "ts": 1789775495898,
+    "videoLinksSeen": 28
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789405449000,
+    "baselineDate": "2026-09-14T17:04:09.000Z",
+    "id": "1789775501356_viakya",
+    "liveMax": 1789592230000,
+    "liveMaxDate": "2026-09-16T20:57:10.000Z",
+    "loggedAt": "2026-09-18T23:51:41.351Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_y826rz",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T20:57:10.000Z",
+        "url": "https://www.tiktok.com/user_y826rz/video/7686240102728813844"
+      },
+      {
+        "date": "2026-09-16T02:21:02.000Z",
+        "url": "https://www.tiktok.com/user_y826rz/video/7685952479837670676"
+      }
+    ],
+    "ts": 1789775501351,
+    "videoLinksSeen": 18
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T07:15:40.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_lz57ls/video/7686770573317344534"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789293863000,
+    "baselineDate": "2026-09-13T10:04:23.000Z",
+    "id": "1789775507715_j2qsv7",
+    "liveMax": 1789715740000,
+    "liveMaxDate": "2026-09-18T07:15:40.000Z",
+    "loggedAt": "2026-09-18T23:51:47.710Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_lz57ls",
+    "scrapeCandidates": [],
+    "ts": 1789775507710,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789317047000,
+    "baselineDate": "2026-09-13T16:30:47.000Z",
+    "id": "1789775512092_ei1uml",
+    "liveMax": 1789656586000,
+    "liveMaxDate": "2026-09-17T14:49:46.000Z",
+    "loggedAt": "2026-09-18T23:51:52.084Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_jaz8mf",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T14:49:46.000Z",
+        "url": "https://www.tiktok.com/user_jaz8mf/video/7686516511967808791"
+      },
+      {
+        "date": "2026-09-15T15:12:29.000Z",
+        "url": "https://www.tiktok.com/user_jaz8mf/video/7685780192589122838"
+      }
+    ],
+    "ts": 1789775512084,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T08:15:12.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_wa6bxs/video/7686785914420333842"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789389304000,
+    "baselineDate": "2026-09-14T12:35:04.000Z",
+    "id": "1789775518466_e48ir6",
+    "liveMax": 1789719312000,
+    "liveMaxDate": "2026-09-18T08:15:12.000Z",
+    "loggedAt": "2026-09-18T23:51:58.463Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_wa6bxs",
+    "scrapeCandidates": [],
+    "ts": 1789775518463,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T20:25:09.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_xl1khi/video/7686974023376407821"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789410142000,
+    "baselineDate": "2026-09-14T18:22:22.000Z",
+    "id": "1789775576800_p1yr6o",
+    "liveMax": 1789763109000,
+    "liveMaxDate": "2026-09-18T20:25:09.000Z",
+    "loggedAt": "2026-09-18T23:52:56.799Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_xl1khi",
+    "scrapeCandidates": [],
+    "ts": 1789775576799,
+    "videoLinksSeen": 27
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789396381000,
+    "baselineDate": "2026-09-14T14:33:01.000Z",
+    "id": "1789775579751_fqdvxu",
+    "liveMax": 1789542175000,
+    "liveMaxDate": "2026-09-16T07:02:55.000Z",
+    "loggedAt": "2026-09-18T23:52:59.743Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_wmadbp",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T07:02:55.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7686025119239605536"
+      },
+      {
+        "date": "2026-09-16T07:02:00.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7686024883414863137"
+      },
+      {
+        "date": "2026-09-16T07:00:11.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7686024415213030689"
+      },
+      {
+        "date": "2026-09-16T07:00:04.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7686024384804310305"
+      },
+      {
+        "date": "2026-09-15T10:45:11.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7685711312864824609"
+      },
+      {
+        "date": "2026-09-15T10:45:01.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7685711266744192289"
+      },
+      {
+        "date": "2026-09-15T10:20:23.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7685704918350449952"
+      },
+      {
+        "date": "2026-09-15T10:19:27.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7685704680017562912"
+      },
+      {
+        "date": "2026-09-15T10:17:39.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7685704216458857761"
+      },
+      {
+        "date": "2026-09-15T10:16:59.000Z",
+        "url": "https://www.tiktok.com/user_wmadbp/video/7685704045813583136"
+      }
+    ],
+    "ts": 1789775579743,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789340983000,
+    "baselineDate": "2026-09-13T23:09:43.000Z",
+    "id": "1789775586659_s9zrk4",
+    "liveMax": 1789574138000,
+    "liveMaxDate": "2026-09-16T15:55:38.000Z",
+    "loggedAt": "2026-09-18T23:53:06.648Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_wz4s10",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T15:55:38.000Z",
+        "url": "https://www.tiktok.com/user_wz4s10/video/7686162397022801172"
+      }
+    ],
+    "ts": 1789775586648,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789418973000,
+    "baselineDate": "2026-09-14T20:49:33.000Z",
+    "id": "1789775593130_7isy11",
+    "liveMax": 1789418973000,
+    "liveMaxDate": "2026-09-14T20:49:33.000Z",
+    "loggedAt": "2026-09-18T23:53:13.128Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_21sgni",
+    "scrapeCandidates": [],
+    "ts": 1789775593128,
+    "videoLinksSeen": 24
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T20:49:23.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_uct4vb/video/7686980269076761878"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789340475000,
+    "baselineDate": "2026-09-13T23:01:15.000Z",
+    "id": "1789775595294_5t5qb2",
+    "liveMax": 1789764563000,
+    "liveMaxDate": "2026-09-18T20:49:23.000Z",
+    "loggedAt": "2026-09-18T23:53:15.273Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_uct4vb",
+    "scrapeCandidates": [],
+    "ts": 1789775595273,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T13:16:43.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pb9i6a/video/7686863615772642593"
+      },
+      {
+        "date": "2026-09-18T11:48:39.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pb9i6a/video/7686840920951541024"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789386681000,
+    "baselineDate": "2026-09-14T11:51:21.000Z",
+    "id": "1789775598887_kdj9qb",
+    "liveMax": 1789737403000,
+    "liveMaxDate": "2026-09-18T13:16:43.000Z",
+    "loggedAt": "2026-09-18T23:53:18.749Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_pb9i6a",
+    "scrapeCandidates": [],
+    "ts": 1789775598749,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789402720000,
+    "baselineDate": "2026-09-14T16:18:40.000Z",
+    "id": "1789775602115_3e6lov",
+    "liveMax": 1789654314000,
+    "liveMaxDate": "2026-09-17T14:11:54.000Z",
+    "loggedAt": "2026-09-18T23:53:22.048Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_fjt76z",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T14:11:54.000Z",
+        "url": "https://www.tiktok.com/user_fjt76z/video/7686506750647848224"
+      },
+      {
+        "date": "2026-09-17T13:26:35.000Z",
+        "url": "https://www.tiktok.com/user_fjt76z/video/7686495074682686752"
+      },
+      {
+        "date": "2026-09-17T12:12:33.000Z",
+        "url": "https://www.tiktok.com/user_fjt76z/video/7686475994827476256"
+      },
+      {
+        "date": "2026-09-17T07:38:02.000Z",
+        "url": "https://www.tiktok.com/user_fjt76z/video/7686405251397700896"
+      },
+      {
+        "date": "2026-09-17T07:34:01.000Z",
+        "url": "https://www.tiktok.com/user_fjt76z/video/7686404218760088864"
+      },
+      {
+        "date": "2026-09-16T07:08:51.000Z",
+        "url": "https://www.tiktok.com/user_fjt76z/video/7686026648981884192"
+      }
+    ],
+    "ts": 1789775602048,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789405064000,
+    "baselineDate": "2026-09-14T16:57:44.000Z",
+    "id": "1789775609772_flz79x",
+    "liveMax": 1789095810000,
+    "liveMaxDate": "2026-09-11T03:03:30.000Z",
+    "loggedAt": "2026-09-18T23:53:29.771Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_dbjf75",
+    "scrapeCandidates": [],
+    "ts": 1789775609771,
+    "videoLinksSeen": 28
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T22:55:09.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_my9vso/video/7687012678266588437"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789421149000,
+    "baselineDate": "2026-09-14T21:25:49.000Z",
+    "id": "1789775611945_m3fixj",
+    "liveMax": 1789772109000,
+    "liveMaxDate": "2026-09-18T22:55:09.000Z",
+    "loggedAt": "2026-09-18T23:53:31.930Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_my9vso",
+    "scrapeCandidates": [],
+    "ts": 1789775611930,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789223066000,
+    "baselineDate": "2026-09-12T14:24:26.000Z",
+    "id": "1789775614806_jdkpw2",
+    "liveMax": 1789223066000,
+    "liveMaxDate": "2026-09-12T14:24:26.000Z",
+    "loggedAt": "2026-09-18T23:53:34.805Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_n70do3",
+    "scrapeCandidates": [],
+    "ts": 1789775614805,
+    "videoLinksSeen": 13
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789379026000,
+    "baselineDate": "2026-09-14T09:43:46.000Z",
+    "id": "1789775616933_rmpjgd",
+    "liveMax": 1789635777000,
+    "liveMaxDate": "2026-09-17T09:02:57.000Z",
+    "loggedAt": "2026-09-18T23:53:36.924Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_skaazc",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T09:02:57.000Z",
+        "url": "https://www.tiktok.com/user_skaazc/video/7686427134457416968"
+      }
+    ],
+    "ts": 1789775616924,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789407424000,
+    "baselineDate": "2026-09-14T17:37:04.000Z",
+    "id": "1789775632037_52jchk",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-18T23:53:52.037Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_timeout",
+    "profile": "user_whroij",
+    "scrapeCandidates": [],
+    "ts": 1789775632037,
+    "videoLinksSeen": 1
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T20:48:08.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_nlfzs2/video/7686979947382000918"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789401770000,
+    "baselineDate": "2026-09-14T16:02:50.000Z",
+    "id": "1789775634104_ebcknh",
+    "liveMax": 1789764488000,
+    "liveMaxDate": "2026-09-18T20:48:08.000Z",
+    "loggedAt": "2026-09-18T23:53:54.091Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_nlfzs2",
+    "scrapeCandidates": [],
+    "ts": 1789775634091,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T19:24:23.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_jvgm42/video/7686958362591825184"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789404062000,
+    "baselineDate": "2026-09-14T16:41:02.000Z",
+    "id": "1789775838464_rgydiz",
+    "liveMax": 1789759463000,
+    "liveMaxDate": "2026-09-18T19:24:23.000Z",
+    "loggedAt": "2026-09-18T23:57:18.453Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_jvgm42",
+    "scrapeCandidates": [],
+    "ts": 1789775838453,
+    "videoLinksSeen": 34
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789404419000,
+    "baselineDate": "2026-09-14T16:46:59.000Z",
+    "id": "1789775841619_xs28bv",
+    "liveMax": 1789669951000,
+    "liveMaxDate": "2026-09-17T18:32:31.000Z",
+    "loggedAt": "2026-09-18T23:57:21.612Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_329ctd",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T18:32:31.000Z",
+        "url": "https://www.tiktok.com/user_329ctd/video/7686573913349836064"
+      },
+      {
+        "date": "2026-09-15T17:21:28.000Z",
+        "url": "https://www.tiktok.com/user_329ctd/video/7685813431701671201"
+      }
+    ],
+    "ts": 1789775841612,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T19:56:00.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_9uuk15/video/7686966512376106272"
+      },
+      {
+        "date": "2026-09-18T15:42:53.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_9uuk15/video/7686901282090519840"
+      },
+      {
+        "date": "2026-09-18T15:19:10.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_9uuk15/video/7686895170364738849"
+      },
+      {
+        "date": "2026-09-18T12:03:08.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_9uuk15/video/7686844654179994913"
+      },
+      {
+        "date": "2026-09-18T06:38:47.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_9uuk15/video/7686761067787373856"
+      }
+    ],
+    "badgeText": "5 new",
+    "baseline": 1789421409000,
+    "baselineDate": "2026-09-14T21:30:09.000Z",
+    "id": "1789775858360_z58892",
+    "liveMax": 1789761360000,
+    "liveMaxDate": "2026-09-18T19:56:00.000Z",
+    "loggedAt": "2026-09-18T23:57:38.359Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_9uuk15",
+    "scrapeCandidates": [],
+    "ts": 1789775858359,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789189003000,
+    "baselineDate": "2026-09-12T04:56:43.000Z",
+    "id": "1789775862601_pd5in0",
+    "liveMax": 1789622117000,
+    "liveMaxDate": "2026-09-17T05:15:17.000Z",
+    "loggedAt": "2026-09-18T23:57:42.600Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_42291l",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T05:15:17.000Z",
+        "url": "https://www.tiktok.com/user_42291l/video/7686368466722573588"
+      },
+      {
+        "date": "2026-09-17T00:38:11.000Z",
+        "url": "https://www.tiktok.com/user_42291l/video/7686297059686616341"
+      }
+    ],
+    "ts": 1789775862600,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T07:23:30.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_193ww6/video/7686772592912469270"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789341390000,
+    "baselineDate": "2026-09-13T23:16:30.000Z",
+    "id": "1789775870181_0kche1",
+    "liveMax": 1789716210000,
+    "liveMaxDate": "2026-09-18T07:23:30.000Z",
+    "loggedAt": "2026-09-18T23:57:50.180Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_193ww6",
+    "scrapeCandidates": [],
+    "ts": 1789775870180,
+    "videoLinksSeen": 15
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T12:24:11.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_j9vcdv/video/7686850078711074080"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789393338000,
+    "baselineDate": "2026-09-14T13:42:18.000Z",
+    "id": "1789775873181_4aexq6",
+    "liveMax": 1789734251000,
+    "liveMaxDate": "2026-09-18T12:24:11.000Z",
+    "loggedAt": "2026-09-18T23:57:53.179Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_j9vcdv",
+    "scrapeCandidates": [],
+    "ts": 1789775873179,
+    "videoLinksSeen": 35
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T19:30:09.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686959848868695304"
+      },
+      {
+        "date": "2026-09-18T18:05:07.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686937934854982920"
+      },
+      {
+        "date": "2026-09-18T16:41:01.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686916263037259026"
+      },
+      {
+        "date": "2026-09-18T15:59:37.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686905596829895954"
+      },
+      {
+        "date": "2026-09-18T15:50:46.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686903312909716744"
+      },
+      {
+        "date": "2026-09-18T11:45:22.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686840076537548050"
+      },
+      {
+        "date": "2026-09-18T10:26:09.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686819662805781767"
+      },
+      {
+        "date": "2026-09-18T09:23:11.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686803433432616200"
+      },
+      {
+        "date": "2026-09-18T08:24:06.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686788209266674952"
+      },
+      {
+        "date": "2026-09-18T04:23:49.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686726289994075399"
+      },
+      {
+        "date": "2026-09-18T04:13:58.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686723751630687506"
+      },
+      {
+        "date": "2026-09-18T04:09:46.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686722666690104583"
+      },
+      {
+        "date": "2026-09-18T04:09:19.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_2qt59w/video/7686722551321562376"
+      }
+    ],
+    "badgeText": "13 new",
+    "baseline": 1789414548000,
+    "baselineDate": "2026-09-14T19:35:48.000Z",
+    "id": "1789775876478_re4mfa",
+    "liveMax": 1789759809000,
+    "liveMaxDate": "2026-09-18T19:30:09.000Z",
+    "loggedAt": "2026-09-18T23:57:56.477Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_2qt59w",
+    "scrapeCandidates": [],
+    "ts": 1789775876477,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789256409000,
+    "baselineDate": "2026-09-12T23:40:09.000Z",
+    "id": "1789775880383_ksz6se",
+    "liveMax": 1789256409000,
+    "liveMaxDate": "2026-09-12T23:40:09.000Z",
+    "loggedAt": "2026-09-18T23:58:00.382Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_3sn46c",
+    "scrapeCandidates": [],
+    "ts": 1789775880382,
+    "videoLinksSeen": 18
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T22:28:01.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_wc13w7/video/7687005687037365524"
+      },
+      {
+        "date": "2026-09-18T21:14:01.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_wc13w7/video/7686986616417701140"
+      },
+      {
+        "date": "2026-09-18T15:44:10.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_wc13w7/video/7686901615248395541"
+      }
+    ],
+    "badgeText": "3 new",
+    "baseline": 1789345783000,
+    "baselineDate": "2026-09-14T00:29:43.000Z",
+    "id": "1789775882432_gh9dh2",
+    "liveMax": 1789770481000,
+    "liveMaxDate": "2026-09-18T22:28:01.000Z",
+    "loggedAt": "2026-09-18T23:58:02.430Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_wc13w7",
+    "scrapeCandidates": [],
+    "ts": 1789775882430,
+    "videoLinksSeen": 34
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T14:32:46.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_w0tfp0/video/7686883213427428640"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789384809000,
+    "baselineDate": "2026-09-14T11:20:09.000Z",
+    "id": "1789775885711_sl12hi",
+    "liveMax": 1789741966000,
+    "liveMaxDate": "2026-09-18T14:32:46.000Z",
+    "loggedAt": "2026-09-18T23:58:05.705Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_w0tfp0",
+    "scrapeCandidates": [],
+    "ts": 1789775885705,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789323784000,
+    "baselineDate": "2026-09-13T18:23:04.000Z",
+    "id": "1789775889170_ys94a2",
+    "liveMax": 1789323784000,
+    "liveMaxDate": "2026-09-13T18:23:04.000Z",
+    "loggedAt": "2026-09-18T23:58:09.168Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_yr3y9f",
+    "scrapeCandidates": [],
+    "ts": 1789775889168,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789237964000,
+    "baselineDate": "2026-09-12T18:32:44.000Z",
+    "id": "1789775891275_l1a38e",
+    "liveMax": 1789237964000,
+    "liveMaxDate": "2026-09-12T18:32:44.000Z",
+    "loggedAt": "2026-09-18T23:58:11.260Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_nf3ows",
+    "scrapeCandidates": [],
+    "ts": 1789775891260,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789410549000,
+    "baselineDate": "2026-09-14T18:29:09.000Z",
+    "id": "1789775893398_q0u9bt",
+    "liveMax": 1789410549000,
+    "liveMaxDate": "2026-09-14T18:29:09.000Z",
+    "loggedAt": "2026-09-18T23:58:13.397Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_sd82tf",
+    "scrapeCandidates": [],
+    "ts": 1789775893397,
+    "videoLinksSeen": 29
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789347325000,
+    "baselineDate": "2026-09-14T00:55:25.000Z",
+    "id": "1789775895545_gtz14q",
+    "liveMax": 1789607632000,
+    "liveMaxDate": "2026-09-17T01:13:52.000Z",
+    "loggedAt": "2026-09-18T23:58:15.543Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_frqf1",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T01:13:52.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7686306253819186452"
+      },
+      {
+        "date": "2026-09-17T01:02:41.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7686303371107634453"
+      },
+      {
+        "date": "2026-09-17T01:01:52.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7686303160608230677"
+      },
+      {
+        "date": "2026-09-17T01:00:36.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7686302833423043860"
+      },
+      {
+        "date": "2026-09-17T01:00:05.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7686302700329241877"
+      },
+      {
+        "date": "2026-09-16T00:22:46.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7685922002355408149"
+      },
+      {
+        "date": "2026-09-16T00:20:41.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7685921462443822356"
+      },
+      {
+        "date": "2026-09-16T00:19:53.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7685921258214673684"
+      },
+      {
+        "date": "2026-09-15T00:29:58.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7685552771503820052"
+      },
+      {
+        "date": "2026-09-15T00:27:22.000Z",
+        "url": "https://www.tiktok.com/user_frqf1/video/7685552100582935829"
+      }
+    ],
+    "ts": 1789775895543,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789208917000,
+    "baselineDate": "2026-09-12T10:28:37.000Z",
+    "id": "1789775904235_j65q1t",
+    "liveMax": 1789551101000,
+    "liveMaxDate": "2026-09-16T09:31:41.000Z",
+    "loggedAt": "2026-09-18T23:58:24.225Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_jgdi60",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T09:31:41.000Z",
+        "url": "https://www.tiktok.com/user_jgdi60/video/7686063453974580513"
+      }
+    ],
+    "ts": 1789775904225,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T18:03:59.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_6rs4uf/video/7686937643816406294"
+      },
+      {
+        "date": "2026-09-18T17:43:39.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_6rs4uf/video/7686932402769300758"
+      },
+      {
+        "date": "2026-09-18T17:29:01.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_6rs4uf/video/7686928634774408470"
+      },
+      {
+        "date": "2026-09-18T17:23:14.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_6rs4uf/video/7686927143170837782"
+      },
+      {
+        "date": "2026-09-18T17:19:24.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_6rs4uf/video/7686926156393696534"
+      }
+    ],
+    "badgeText": "5 new",
+    "baseline": 1789406488000,
+    "baselineDate": "2026-09-14T17:21:28.000Z",
+    "id": "1789775911553_u19fjv",
+    "liveMax": 1789754639000,
+    "liveMaxDate": "2026-09-18T18:03:59.000Z",
+    "loggedAt": "2026-09-18T23:58:31.545Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_6rs4uf",
+    "scrapeCandidates": [],
+    "ts": 1789775911545,
+    "videoLinksSeen": 25
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789249734000,
+    "baselineDate": "2026-09-12T21:48:54.000Z",
+    "id": "1789775914584_itfqyv",
+    "liveMax": 1789249734000,
+    "liveMaxDate": "2026-09-12T21:48:54.000Z",
+    "loggedAt": "2026-09-18T23:58:34.576Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_q1jcyb",
+    "scrapeCandidates": [],
+    "ts": 1789775914576,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789229404000,
+    "baselineDate": "2026-09-12T16:10:04.000Z",
+    "id": "1789775916697_d9gx23",
+    "liveMax": 1789495326000,
+    "liveMaxDate": "2026-09-15T18:02:06.000Z",
+    "loggedAt": "2026-09-18T23:58:36.696Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_5jcur4",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-15T18:02:06.000Z",
+        "url": "https://www.tiktok.com/user_5jcur4/video/7685823902500523272"
+      }
+    ],
+    "ts": 1789775916696,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789264494000,
+    "baselineDate": "2026-09-13T01:54:54.000Z",
+    "id": "1789775925768_w956mx",
+    "liveMax": 1789523994000,
+    "liveMaxDate": "2026-09-16T01:59:54.000Z",
+    "loggedAt": "2026-09-18T23:58:45.755Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_ml6cy3",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T01:59:54.000Z",
+        "url": "https://www.tiktok.com/user_ml6cy3/video/7685947033408113951"
+      },
+      {
+        "date": "2026-09-16T01:54:49.000Z",
+        "url": "https://www.tiktok.com/user_ml6cy3/video/7685945722537119007"
+      },
+      {
+        "date": "2026-09-16T01:48:59.000Z",
+        "url": "https://www.tiktok.com/user_ml6cy3/video/7685944219931807007"
+      }
+    ],
+    "ts": 1789775925755,
+    "videoLinksSeen": 26
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T18:41:31.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_k985xe/video/7686947318368718113"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789235738000,
+    "baselineDate": "2026-09-12T17:55:38.000Z",
+    "id": "1789775931759_szgjyv",
+    "liveMax": 1789756891000,
+    "liveMaxDate": "2026-09-18T18:41:31.000Z",
+    "loggedAt": "2026-09-18T23:58:51.684Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_k985xe",
+    "scrapeCandidates": [],
+    "ts": 1789775931684,
+    "videoLinksSeen": 26
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T10:09:27.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_sfotro/video/7686815357935553799"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789399736000,
+    "baselineDate": "2026-09-14T15:28:56.000Z",
+    "id": "1789775939092_74v09t",
+    "liveMax": 1789726167000,
+    "liveMaxDate": "2026-09-18T10:09:27.000Z",
+    "loggedAt": "2026-09-18T23:58:58.805Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_sfotro",
+    "scrapeCandidates": [],
+    "ts": 1789775938805,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789231926000,
+    "baselineDate": "2026-09-12T16:52:06.000Z",
+    "id": "1789775949387_ru95cp",
+    "liveMax": 1789580202000,
+    "liveMaxDate": "2026-09-16T17:36:42.000Z",
+    "loggedAt": "2026-09-18T23:59:09.381Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_dgis7z",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T17:36:42.000Z",
+        "url": "https://www.tiktok.com/user_dgis7z/video/7686188444921498888"
+      }
+    ],
+    "ts": 1789775949381,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789384375000,
+    "baselineDate": "2026-09-14T11:12:55.000Z",
+    "id": "1789775957146_nukzil",
+    "liveMax": 1789637246000,
+    "liveMaxDate": "2026-09-17T09:27:26.000Z",
+    "loggedAt": "2026-09-18T23:59:17.129Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_3kwl33",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T09:27:26.000Z",
+        "url": "https://www.tiktok.com/user_3kwl33/video/7686433446553586952"
+      },
+      {
+        "date": "2026-09-16T10:34:00.000Z",
+        "url": "https://www.tiktok.com/user_3kwl33/video/7686079513767185682"
+      },
+      {
+        "date": "2026-09-15T09:26:07.000Z",
+        "url": "https://www.tiktok.com/user_3kwl33/video/7685690936810081544"
+      }
+    ],
+    "ts": 1789775957129,
+    "videoLinksSeen": 18
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T22:34:50.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_3x8xgk/video/7687007441048849696"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789247653000,
+    "baselineDate": "2026-09-12T21:14:13.000Z",
+    "id": "1789775963612_3eoiyj",
+    "liveMax": 1789770890000,
+    "liveMaxDate": "2026-09-18T22:34:50.000Z",
+    "loggedAt": "2026-09-18T23:59:23.582Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_3x8xgk",
+    "scrapeCandidates": [],
+    "ts": 1789775963582,
+    "videoLinksSeen": 10
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789413036000,
+    "baselineDate": "2026-09-14T19:10:36.000Z",
+    "id": "1789775968854_j44als",
+    "liveMax": 1789680391000,
+    "liveMaxDate": "2026-09-17T21:26:31.000Z",
+    "loggedAt": "2026-09-18T23:59:28.843Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_ip04bo",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T21:26:31.000Z",
+        "url": "https://www.tiktok.com/user_ip04bo/video/7686618753383025942"
+      }
+    ],
+    "ts": 1789775968843,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T13:43:09.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_5ivb6e/video/7686870429234990350"
+      },
+      {
+        "date": "2026-09-18T13:41:31.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_5ivb6e/video/7686870006033894669"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789419079000,
+    "baselineDate": "2026-09-14T20:51:19.000Z",
+    "id": "1789775976803_cr8wkt",
+    "liveMax": 1789738989000,
+    "liveMaxDate": "2026-09-18T13:43:09.000Z",
+    "loggedAt": "2026-09-18T23:59:36.795Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_5ivb6e",
+    "scrapeCandidates": [],
+    "ts": 1789775976795,
+    "videoLinksSeen": 35
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T21:02:27.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_3345hi/video/7686983636020677909"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789406884000,
+    "baselineDate": "2026-09-14T17:28:04.000Z",
+    "id": "1789775989546_n0pwgr",
+    "liveMax": 1789765347000,
+    "liveMaxDate": "2026-09-18T21:02:27.000Z",
+    "loggedAt": "2026-09-18T23:59:49.541Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_3345hi",
+    "scrapeCandidates": [],
+    "ts": 1789775989541,
+    "videoLinksSeen": 17
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T19:49:26.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_1xth2s/video/7686964820201082130"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789224126000,
+    "baselineDate": "2026-09-12T14:42:06.000Z",
+    "id": "1789775992946_3kclve",
+    "liveMax": 1789760966000,
+    "liveMaxDate": "2026-09-18T19:49:26.000Z",
+    "loggedAt": "2026-09-18T23:59:52.944Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_1xth2s",
+    "scrapeCandidates": [],
+    "ts": 1789775992944,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T19:47:59.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pmqqcu/video/7686964446819880212"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789257916000,
+    "baselineDate": "2026-09-13T00:05:16.000Z",
+    "id": "1789776001505_7tep2c",
+    "liveMax": 1789760879000,
+    "liveMaxDate": "2026-09-18T19:47:59.000Z",
+    "loggedAt": "2026-09-19T00:00:01.501Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_pmqqcu",
+    "scrapeCandidates": [],
+    "ts": 1789776001501,
+    "videoLinksSeen": 30
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789350760000,
+    "baselineDate": "2026-09-14T01:52:40.000Z",
+    "id": "1789776008387_p973sc",
+    "liveMax": 1789681973000,
+    "liveMaxDate": "2026-09-17T21:52:53.000Z",
+    "loggedAt": "2026-09-19T00:00:08.383Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_gf166x",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-14T23:54:31.000Z",
+        "url": "https://www.tiktok.com/user_gf166x/video/7685543633734438151"
+      },
+      {
+        "date": "2026-09-17T21:52:53.000Z",
+        "url": "https://www.tiktok.com/user_gf166x/video/7686625547061054727"
+      },
+      {
+        "date": "2026-09-17T21:52:21.000Z",
+        "url": "https://www.tiktok.com/user_gf166x/video/7686625409156336914"
+      },
+      {
+        "date": "2026-09-14T23:54:56.000Z",
+        "url": "https://www.tiktok.com/user_gf166x/video/7685543744174558482"
+      },
+      {
+        "date": "2026-09-14T23:53:44.000Z",
+        "url": "https://www.tiktok.com/user_gf166x/video/7685543435603954952"
+      }
+    ],
+    "ts": 1789776008383,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T19:17:07.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_8hum3k/video/7686956491177200916"
+      },
+      {
+        "date": "2026-09-18T13:40:51.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_8hum3k/video/7686869836000955668"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789321043000,
+    "baselineDate": "2026-09-13T17:37:23.000Z",
+    "id": "1789776015085_gmitmx",
+    "liveMax": 1789759027000,
+    "liveMaxDate": "2026-09-18T19:17:07.000Z",
+    "loggedAt": "2026-09-19T00:00:15.084Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_8hum3k",
+    "scrapeCandidates": [],
+    "ts": 1789776015084,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T20:21:56.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_epzvjw/video/7686973195634625810"
+      },
+      {
+        "date": "2026-09-18T01:12:14.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_epzvjw/video/7686676917008846087"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1789421014000,
+    "baselineDate": "2026-09-14T21:23:34.000Z",
+    "id": "1789776018709_bwk673",
+    "liveMax": 1789762916000,
+    "liveMaxDate": "2026-09-18T20:21:56.000Z",
+    "loggedAt": "2026-09-19T00:00:18.701Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_epzvjw",
+    "scrapeCandidates": [],
+    "ts": 1789776018701,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789329552000,
+    "baselineDate": "2026-09-13T19:59:12.000Z",
+    "id": "1789776023132_1mrzch",
+    "liveMax": 1789686303000,
+    "liveMaxDate": "2026-09-17T23:05:03.000Z",
+    "loggedAt": "2026-09-19T00:00:23.088Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_9ropnm",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T23:05:03.000Z",
+        "url": "https://www.tiktok.com/user_9ropnm/video/7686644143694662929"
+      },
+      {
+        "date": "2026-09-17T12:39:08.000Z",
+        "url": "https://www.tiktok.com/user_9ropnm/video/7686482845648342288"
+      },
+      {
+        "date": "2026-09-15T14:11:39.000Z",
+        "url": "https://www.tiktok.com/user_9ropnm/video/7685764517153770768"
+      }
+    ],
+    "ts": 1789776023088,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T19:38:38.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_mron1n/video/7686962034495212807"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789418640000,
+    "baselineDate": "2026-09-14T20:44:00.000Z",
+    "id": "1789776030533_4vb6cr",
+    "liveMax": 1789760318000,
+    "liveMaxDate": "2026-09-18T19:38:38.000Z",
+    "loggedAt": "2026-09-19T00:00:30.531Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_mron1n",
+    "scrapeCandidates": [],
+    "ts": 1789776030531,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788799723000,
+    "baselineDate": "2026-09-07T16:48:43.000Z",
+    "id": "1789776033805_4slxvc",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:00:33.803Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_nxvdbu",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776033803,
+    "videoLinksSeen": 24
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788565902000,
+    "baselineDate": "2026-09-04T23:51:42.000Z",
+    "id": "1789776041402_xst7g8",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:00:41.397Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_4hp2nl",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776041397,
+    "videoLinksSeen": 26
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788693911000,
+    "baselineDate": "2026-09-06T11:25:11.000Z",
+    "id": "1789776049981_ebwj9s",
+    "liveMax": 1788693911000,
+    "liveMaxDate": "2026-09-06T11:25:11.000Z",
+    "loggedAt": "2026-09-19T00:00:49.980Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_3qubzn",
+    "scrapeCandidates": [],
+    "ts": 1789776049980,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789091248000,
+    "baselineDate": "2026-09-11T01:47:28.000Z",
+    "id": "1789776052004_9wt7he",
+    "liveMax": 1789530922000,
+    "liveMaxDate": "2026-09-16T03:55:22.000Z",
+    "loggedAt": "2026-09-19T00:00:51.996Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_y80ixj",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T03:55:22.000Z",
+        "url": "https://www.tiktok.com/user_y80ixj/video/7685976787045682446"
+      },
+      {
+        "date": "2026-09-15T00:14:13.000Z",
+        "url": "https://www.tiktok.com/user_y80ixj/video/7685548711543442701"
+      },
+      {
+        "date": "2026-09-15T00:12:47.000Z",
+        "url": "https://www.tiktok.com/user_y80ixj/video/7685548342771748109"
+      }
+    ],
+    "ts": 1789776051996,
+    "videoLinksSeen": 28
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788706433000,
+    "baselineDate": "2026-09-06T14:53:53.000Z",
+    "id": "1789776058262_iwwh8b",
+    "liveMax": 1788706433000,
+    "liveMaxDate": "2026-09-06T14:53:53.000Z",
+    "loggedAt": "2026-09-19T00:00:58.255Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_ho6tz2",
+    "scrapeCandidates": [],
+    "ts": 1789776058255,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788722626000,
+    "baselineDate": "2026-09-06T19:23:46.000Z",
+    "id": "1789776060578_mp9u08",
+    "liveMax": 1788722626000,
+    "liveMaxDate": "2026-09-06T19:23:46.000Z",
+    "loggedAt": "2026-09-19T00:01:00.577Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_yi383a",
+    "scrapeCandidates": [],
+    "ts": 1789776060577,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T20:39:30.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_4ts23p/video/7686977721099996446"
+      },
+      {
+        "date": "2026-09-18T00:39:53.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_4ts23p/video/7686668582695996703"
+      }
+    ],
+    "badgeText": "2 new",
+    "baseline": 1788567706000,
+    "baselineDate": "2026-09-05T00:21:46.000Z",
+    "id": "1789776062732_iz2czf",
+    "liveMax": 1789763970000,
+    "liveMaxDate": "2026-09-18T20:39:30.000Z",
+    "loggedAt": "2026-09-19T00:01:02.647Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_4ts23p",
+    "scrapeCandidates": [],
+    "ts": 1789776062647,
+    "videoLinksSeen": 29
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789081532000,
+    "baselineDate": "2026-09-10T23:05:32.000Z",
+    "id": "1789776066434_cejkzo",
+    "liveMax": 1789680248000,
+    "liveMaxDate": "2026-09-17T21:24:08.000Z",
+    "loggedAt": "2026-09-19T00:01:06.424Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_yhjl6e",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-17T21:24:08.000Z",
+        "url": "https://www.tiktok.com/user_yhjl6e/video/7686618138145738016"
+      },
+      {
+        "date": "2026-09-15T20:10:34.000Z",
+        "url": "https://www.tiktok.com/user_yhjl6e/video/7685857010839014688"
+      },
+      {
+        "date": "2026-09-14T22:49:51.000Z",
+        "url": "https://www.tiktok.com/user_yhjl6e/video/7685526971031293216"
+      },
+      {
+        "date": "2026-09-14T22:49:17.000Z",
+        "url": "https://www.tiktok.com/user_yhjl6e/video/7685526824184450337"
+      }
+    ],
+    "ts": 1789776066424,
+    "videoLinksSeen": 16
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788799641000,
+    "baselineDate": "2026-09-07T16:47:21.000Z",
+    "id": "1789776075590_x93mr5",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:01:15.583Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_n3h0xa",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776075583,
+    "videoLinksSeen": 28
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789169878000,
+    "baselineDate": "2026-09-11T23:37:58.000Z",
+    "id": "1789776082690_5ygjvm",
+    "liveMax": 1789169878000,
+    "liveMaxDate": "2026-09-11T23:37:58.000Z",
+    "loggedAt": "2026-09-19T00:01:22.685Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_kue22z",
+    "scrapeCandidates": [],
+    "ts": 1789776082685,
+    "videoLinksSeen": 30
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789131910000,
+    "baselineDate": "2026-09-11T13:05:10.000Z",
+    "id": "1789776084709_6xd50o",
+    "liveMax": 1789131910000,
+    "liveMaxDate": "2026-09-11T13:05:10.000Z",
+    "loggedAt": "2026-09-19T00:01:24.707Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_f3aacq",
+    "scrapeCandidates": [],
+    "ts": 1789776084707,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788941628000,
+    "baselineDate": "2026-09-09T08:13:48.000Z",
+    "id": "1789776086845_pncghv",
+    "liveMax": 1788941628000,
+    "liveMaxDate": "2026-09-09T08:13:48.000Z",
+    "loggedAt": "2026-09-19T00:01:26.844Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_xupa78",
+    "scrapeCandidates": [],
+    "ts": 1789776086844,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788970901000,
+    "baselineDate": "2026-09-09T16:21:41.000Z",
+    "id": "1789776088954_s1jot1",
+    "liveMax": 1788970901000,
+    "liveMaxDate": "2026-09-09T16:21:41.000Z",
+    "loggedAt": "2026-09-19T00:01:28.952Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_fgvgni",
+    "scrapeCandidates": [],
+    "ts": 1789776088952,
+    "videoLinksSeen": 34
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T09:45:12.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_pge1x2/video/7686809109794098450"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1788673676000,
+    "baselineDate": "2026-09-06T05:47:56.000Z",
+    "id": "1789776091090_0veykk",
+    "liveMax": 1789724712000,
+    "liveMaxDate": "2026-09-18T09:45:12.000Z",
+    "loggedAt": "2026-09-19T00:01:31.041Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_pge1x2",
+    "scrapeCandidates": [],
+    "ts": 1789776091041,
+    "videoLinksSeen": 34
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788992541000,
+    "baselineDate": "2026-09-09T22:22:21.000Z",
+    "id": "1789776095780_kdwh5h",
+    "liveMax": 1789600244000,
+    "liveMaxDate": "2026-09-16T23:10:44.000Z",
+    "loggedAt": "2026-09-19T00:01:35.772Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_yy8uf5",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      },
+      {
+        "date": "2026-09-16T23:10:44.000Z",
+        "url": "https://www.tiktok.com/user_yy8uf5/video/7686274523942964511"
+      }
+    ],
+    "ts": 1789776095772,
+    "videoLinksSeen": 18
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1789169696000,
+    "baselineDate": "2026-09-11T23:34:56.000Z",
+    "id": "1789776106597_bppon3",
+    "liveMax": 1789169696000,
+    "liveMaxDate": "2026-09-11T23:34:56.000Z",
+    "loggedAt": "2026-09-19T00:01:46.594Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_kjsi7n",
+    "scrapeCandidates": [],
+    "ts": 1789776106594,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788762779000,
+    "baselineDate": "2026-09-07T06:32:59.000Z",
+    "id": "1789776108680_ibamye",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:01:48.677Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_qx9ptn",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776108677,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788993030000,
+    "baselineDate": "2026-09-09T22:30:30.000Z",
+    "id": "1789776115342_90gyv8",
+    "liveMax": 1788993030000,
+    "liveMaxDate": "2026-09-09T22:30:30.000Z",
+    "loggedAt": "2026-09-19T00:01:55.340Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_jmauhq",
+    "scrapeCandidates": [],
+    "ts": 1789776115340,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788771018000,
+    "baselineDate": "2026-09-07T08:50:18.000Z",
+    "id": "1789776117455_j8qsoc",
+    "liveMax": 1788771018000,
+    "liveMaxDate": "2026-09-07T08:50:18.000Z",
+    "loggedAt": "2026-09-19T00:01:57.449Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_w2dw3v",
+    "scrapeCandidates": [],
+    "ts": 1789776117449,
+    "videoLinksSeen": 15
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T21:40:27.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_qbqux8/video/7686993425920560405"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1788838595000,
+    "baselineDate": "2026-09-08T03:36:35.000Z",
+    "id": "1789776119478_3hlxh8",
+    "liveMax": 1789767627000,
+    "liveMaxDate": "2026-09-18T21:40:27.000Z",
+    "loggedAt": "2026-09-19T00:01:59.473Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_qbqux8",
+    "scrapeCandidates": [],
+    "ts": 1789776119473,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788633218000,
+    "baselineDate": "2026-09-05T18:33:38.000Z",
+    "id": "1789776122853_2h0rgv",
+    "liveMax": 1789606673000,
+    "liveMaxDate": "2026-09-17T00:57:53.000Z",
+    "loggedAt": "2026-09-19T00:02:02.831Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_mtoxdz",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      },
+      {
+        "date": "2026-09-17T00:57:53.000Z",
+        "url": "https://www.tiktok.com/user_mtoxdz/video/7686302133901217044"
+      },
+      {
+        "date": "2026-09-17T00:55:11.000Z",
+        "url": "https://www.tiktok.com/user_mtoxdz/video/7686301439794351380"
+      },
+      {
+        "date": "2026-09-16T02:38:48.000Z",
+        "url": "https://www.tiktok.com/user_mtoxdz/video/7685957055127080213"
+      },
+      {
+        "date": "2026-09-16T02:34:29.000Z",
+        "url": "https://www.tiktok.com/user_mtoxdz/video/7685955944747961620"
+      },
+      {
+        "date": "2026-09-15T05:15:01.000Z",
+        "url": "https://www.tiktok.com/user_mtoxdz/video/7685626227083775253"
+      },
+      {
+        "date": "2026-09-15T03:05:39.000Z",
+        "url": "https://www.tiktok.com/user_mtoxdz/video/7685592891217005844"
+      }
+    ],
+    "ts": 1789776122831,
+    "videoLinksSeen": 30
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788866718000,
+    "baselineDate": "2026-09-08T11:25:18.000Z",
+    "id": "1789776129716_ywg78r",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:02:09.706Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_t5q4fr",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776129706,
+    "videoLinksSeen": 30
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788767922000,
+    "baselineDate": "2026-09-07T07:58:42.000Z",
+    "id": "1789776135626_5t3zaq",
+    "liveMax": 1788767922000,
+    "liveMaxDate": "2026-09-07T07:58:42.000Z",
+    "loggedAt": "2026-09-19T00:02:15.625Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_9beuqc",
+    "scrapeCandidates": [],
+    "ts": 1789776135625,
+    "videoLinksSeen": 3
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788896873000,
+    "baselineDate": "2026-09-08T19:47:53.000Z",
+    "id": "1789776137751_a8ezug",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:02:17.739Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_grhvqx",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776137739,
+    "videoLinksSeen": 18
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788870212000,
+    "baselineDate": "2026-09-08T12:23:32.000Z",
+    "id": "1789776145035_8hpmzw",
+    "liveMax": 1788870212000,
+    "liveMaxDate": "2026-09-08T12:23:32.000Z",
+    "loggedAt": "2026-09-19T00:02:25.013Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_ow4rk8",
+    "scrapeCandidates": [],
+    "ts": 1789776145013,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788710248000,
+    "baselineDate": "2026-09-06T15:57:28.000Z",
+    "id": "1789776147207_ep5tfe",
+    "liveMax": 1788710248000,
+    "liveMaxDate": "2026-09-06T15:57:28.000Z",
+    "loggedAt": "2026-09-19T00:02:27.206Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_5lcjlp",
+    "scrapeCandidates": [],
+    "ts": 1789776147206,
+    "videoLinksSeen": 26
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788641427000,
+    "baselineDate": "2026-09-05T20:50:27.000Z",
+    "id": "1789776149277_y86u57",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:02:29.268Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_q8vzx2",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776149268,
+    "videoLinksSeen": 17
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T21:46:45.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_o95ys4/video/7686995050030550293"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1789160645000,
+    "baselineDate": "2026-09-11T21:04:05.000Z",
+    "id": "1789776156017_vemaug",
+    "liveMax": 1789768005000,
+    "liveMaxDate": "2026-09-18T21:46:45.000Z",
+    "loggedAt": "2026-09-19T00:02:36.013Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_o95ys4",
+    "scrapeCandidates": [],
+    "ts": 1789776156013,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788829278000,
+    "baselineDate": "2026-09-08T01:01:18.000Z",
+    "id": "1789776158955_zlvpj9",
+    "liveMax": 1788829278000,
+    "liveMaxDate": "2026-09-08T01:01:18.000Z",
+    "loggedAt": "2026-09-19T00:02:38.954Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_hlk3hq",
+    "scrapeCandidates": [],
+    "ts": 1789776158954,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1787571890000,
+    "baselineDate": "2026-08-24T11:44:50.000Z",
+    "id": "1789776161126_zsmro2",
+    "liveMax": 1787571890000,
+    "liveMaxDate": "2026-08-24T11:44:50.000Z",
+    "loggedAt": "2026-09-19T00:02:41.079Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_60tg7p",
+    "scrapeCandidates": [],
+    "ts": 1789776161079,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788042892000,
+    "baselineDate": "2026-08-29T22:34:52.000Z",
+    "id": "1789776163205_rj4m12",
+    "liveMax": 1788042892000,
+    "liveMaxDate": "2026-08-29T22:34:52.000Z",
+    "loggedAt": "2026-09-19T00:02:43.203Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_jw34rt",
+    "scrapeCandidates": [],
+    "ts": 1789776163203,
+    "videoLinksSeen": 8
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T04:16:51.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_q94jfa/video/7686724494198689038"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1787954597000,
+    "baselineDate": "2026-08-28T22:03:17.000Z",
+    "id": "1789776165268_d3e9eq",
+    "liveMax": 1789705011000,
+    "liveMaxDate": "2026-09-18T04:16:51.000Z",
+    "loggedAt": "2026-09-19T00:02:45.263Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_q94jfa",
+    "scrapeCandidates": [],
+    "ts": 1789776165263,
+    "videoLinksSeen": 12
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1787874360000,
+    "baselineDate": "2026-08-27T23:46:00.000Z",
+    "id": "1789776168279_btwmo4",
+    "liveMax": 1789537433000,
+    "liveMaxDate": "2026-09-16T05:43:53.000Z",
+    "loggedAt": "2026-09-19T00:02:48.277Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_cgot48",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T05:43:53.000Z",
+        "url": "https://www.tiktok.com/user_cgot48/video/7686004750583598350"
+      },
+      {
+        "date": "2026-09-15T00:37:58.000Z",
+        "url": "https://www.tiktok.com/user_cgot48/video/7685554833184541965"
+      },
+      {
+        "date": "2026-09-14T01:01:46.000Z",
+        "url": "https://www.tiktok.com/user_cgot48/video/7685189882389499150"
+      }
+    ],
+    "ts": 1789776168277,
+    "videoLinksSeen": 19
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788191548000,
+    "baselineDate": "2026-08-31T15:52:28.000Z",
+    "id": "1789776174726_azpepi",
+    "liveMax": 1788191548000,
+    "liveMaxDate": "2026-08-31T15:52:28.000Z",
+    "loggedAt": "2026-09-19T00:02:54.703Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_u86hal",
+    "scrapeCandidates": [],
+    "ts": 1789776174703,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788336378000,
+    "baselineDate": "2026-09-02T08:06:18.000Z",
+    "id": "1789776176904_21cd5w",
+    "liveMax": 1788336378000,
+    "liveMaxDate": "2026-09-02T08:06:18.000Z",
+    "loggedAt": "2026-09-19T00:02:56.902Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_lb5kv4",
+    "scrapeCandidates": [],
+    "ts": 1789776176902,
+    "videoLinksSeen": 10
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1787833893000,
+    "baselineDate": "2026-08-27T12:31:33.000Z",
+    "id": "1789776179018_hqsrsv",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:02:59.011Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_gz8wz5",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776179011,
+    "videoLinksSeen": 6
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T21:29:03.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_t7atfm/video/7686990491610533142"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1787427201000,
+    "baselineDate": "2026-08-22T19:33:21.000Z",
+    "id": "1789776185596_anmw2w",
+    "liveMax": 1789766943000,
+    "liveMaxDate": "2026-09-18T21:29:03.000Z",
+    "loggedAt": "2026-09-19T00:03:05.594Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_t7atfm",
+    "scrapeCandidates": [],
+    "ts": 1789776185594,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788353073000,
+    "baselineDate": "2026-09-02T12:44:33.000Z",
+    "id": "1789776192306_m8uz1r",
+    "liveMax": 1789671154000,
+    "liveMaxDate": "2026-09-17T18:52:34.000Z",
+    "loggedAt": "2026-09-19T00:03:12.304Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_bqfp6k",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      },
+      {
+        "date": "2026-09-17T18:52:34.000Z",
+        "url": "https://www.tiktok.com/user_bqfp6k/video/7686579079843237142"
+      }
+    ],
+    "ts": 1789776192304,
+    "videoLinksSeen": 27
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788209786000,
+    "baselineDate": "2026-08-31T20:56:26.000Z",
+    "id": "1789776198621_vr4075",
+    "liveMax": 1788209786000,
+    "liveMaxDate": "2026-08-31T20:56:26.000Z",
+    "loggedAt": "2026-09-19T00:03:18.616Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_gctr9g",
+    "scrapeCandidates": [],
+    "ts": 1789776198616,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788388641000,
+    "baselineDate": "2026-09-02T22:37:21.000Z",
+    "id": "1789776200738_7buvwb",
+    "liveMax": 1788388641000,
+    "liveMaxDate": "2026-09-02T22:37:21.000Z",
+    "loggedAt": "2026-09-19T00:03:20.716Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_j2m8pa",
+    "scrapeCandidates": [],
+    "ts": 1789776200716,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1788262169000,
+    "baselineDate": "2026-09-01T11:29:29.000Z",
+    "id": "1789776202912_01rem8",
+    "liveMax": 1789311723000,
+    "liveMaxDate": "2026-09-13T15:02:03.000Z",
+    "loggedAt": "2026-09-19T00:03:22.910Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_hk00vl",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      },
+      {
+        "date": "2026-09-13T15:02:03.000Z",
+        "url": "https://www.tiktok.com/user_hk00vl/video/7685035332886121750"
+      },
+      {
+        "date": "2026-09-13T15:00:11.000Z",
+        "url": "https://www.tiktok.com/user_hk00vl/video/7685034852407676182"
+      },
+      {
+        "date": "2026-09-13T12:26:23.000Z",
+        "url": "https://www.tiktok.com/user_hk00vl/video/7684995220194315542"
+      }
+    ],
+    "ts": 1789776202910,
+    "videoLinksSeen": 24
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1787624914000,
+    "baselineDate": "2026-08-25T02:28:34.000Z",
+    "id": "1789776209092_4ftcv1",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:03:29.089Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_yrbcu2",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776209089,
+    "videoLinksSeen": 13
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1787958186000,
+    "baselineDate": "2026-08-28T23:03:06.000Z",
+    "id": "1789776214882_0hqnpw",
+    "liveMax": 1789671756000,
+    "liveMaxDate": "2026-09-17T19:02:36.000Z",
+    "loggedAt": "2026-09-19T00:03:34.870Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_5rn17k",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      },
+      {
+        "date": "2026-09-17T19:02:36.000Z",
+        "url": "https://www.tiktok.com/user_5rn17k/video/7686581665266748693"
+      },
+      {
+        "date": "2026-09-13T19:22:01.000Z",
+        "url": "https://www.tiktok.com/user_5rn17k/video/7685102328419994901"
+      },
+      {
+        "date": "2026-09-13T00:44:38.000Z",
+        "url": "https://www.tiktok.com/user_5rn17k/video/7684814381179489556"
+      },
+      {
+        "date": "2026-09-13T00:07:57.000Z",
+        "url": "https://www.tiktok.com/user_5rn17k/video/7684804927222271253"
+      }
+    ],
+    "ts": 1789776214870,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1787664613000,
+    "baselineDate": "2026-08-25T13:30:13.000Z",
+    "id": "1789776220682_pdf4zn",
+    "liveMax": 1787664613000,
+    "liveMaxDate": "2026-08-25T13:30:13.000Z",
+    "loggedAt": "2026-09-19T00:03:40.679Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_s1m8br",
+    "scrapeCandidates": [],
+    "ts": 1789776220679,
+    "videoLinksSeen": 27
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1785347332000,
+    "baselineDate": "2026-07-29T17:48:52.000Z",
+    "id": "1789776222758_rjwzga",
+    "liveMax": 1785347332000,
+    "liveMaxDate": "2026-07-29T17:48:52.000Z",
+    "loggedAt": "2026-09-19T00:03:42.756Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_g4ama0",
+    "scrapeCandidates": [],
+    "ts": 1789776222756,
+    "videoLinksSeen": 33
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1787147784000,
+    "baselineDate": "2026-08-19T13:56:24.000Z",
+    "id": "1789776224839_t2b5a2",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:03:44.813Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_4bqiqy",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776224813,
+    "videoLinksSeen": 22
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1787059246000,
+    "baselineDate": "2026-08-18T13:20:46.000Z",
+    "id": "1789776232603_x6r76h",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:03:52.600Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_hybo0f",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776232600,
+    "videoLinksSeen": 11
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1786986531000,
+    "baselineDate": "2026-08-17T17:08:51.000Z",
+    "id": "1789776239147_r1dd00",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:03:59.143Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_67ubkd",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776239143,
+    "videoLinksSeen": 5
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1786223083000,
+    "baselineDate": "2026-08-08T21:04:43.000Z",
+    "id": "1789776245748_y9xncd",
+    "liveMax": 1786223083000,
+    "liveMaxDate": "2026-08-08T21:04:43.000Z",
+    "loggedAt": "2026-09-19T00:04:05.746Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_gr2bk7",
+    "scrapeCandidates": [],
+    "ts": 1789776245746,
+    "videoLinksSeen": 4
+  },
+  {
+    "badgeCandidates": [
+      {
+        "date": "2026-09-18T11:47:46.000Z",
+        "postType": "video",
+        "url": "https://www.tiktok.com/user_glartd/video/7686840693079248149"
+      }
+    ],
+    "badgeText": "1 new",
+    "baseline": 1787087407000,
+    "baselineDate": "2026-08-18T21:10:07.000Z",
+    "id": "1789776247806_2kffis",
+    "liveMax": 1789732066000,
+    "liveMaxDate": "2026-09-18T11:47:46.000Z",
+    "loggedAt": "2026-09-19T00:04:07.794Z",
+    "markedFalsePositive": null,
+    "outcome": "stopped_badge",
+    "profile": "user_glartd",
+    "scrapeCandidates": [],
+    "ts": 1789776247794,
+    "videoLinksSeen": 17
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1786163027000,
+    "baselineDate": "2026-08-08T04:23:47.000Z",
+    "id": "1789776253455_ku77eq",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:04:13.448Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_5dtxk",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776253448,
+    "videoLinksSeen": 24
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1786238311000,
+    "baselineDate": "2026-08-09T01:18:31.000Z",
+    "id": "1789776262207_7fle7m",
+    "liveMax": 1786238311000,
+    "liveMaxDate": "2026-08-09T01:18:31.000Z",
+    "loggedAt": "2026-09-19T00:04:22.205Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_g1suvq",
+    "scrapeCandidates": [],
+    "ts": 1789776262205,
+    "videoLinksSeen": 5
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1782030406000,
+    "baselineDate": "2026-06-21T08:26:46.000Z",
+    "id": "1789776264314_cg88i6",
+    "liveMax": 1782030406000,
+    "liveMaxDate": "2026-06-21T08:26:46.000Z",
+    "loggedAt": "2026-09-19T00:04:24.307Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_nc25pt",
+    "scrapeCandidates": [],
+    "ts": 1789776264307,
+    "videoLinksSeen": 31
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1781030307000,
+    "baselineDate": "2026-06-09T18:38:27.000Z",
+    "id": "1789776266434_bxvylr",
+    "liveMax": 1789602401000,
+    "liveMaxDate": "2026-09-16T23:46:41.000Z",
+    "loggedAt": "2026-09-19T00:04:26.432Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_uftkwk",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-16T23:46:41.000Z",
+        "url": "https://www.tiktok.com/user_uftkwk/video/7686283787600186638"
+      }
+    ],
+    "ts": 1789776266432,
+    "videoLinksSeen": 20
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1782163209000,
+    "baselineDate": "2026-06-22T21:20:09.000Z",
+    "id": "1789776296376_2212fq",
+    "liveMax": 1782163209000,
+    "liveMaxDate": "2026-06-22T21:20:09.000Z",
+    "loggedAt": "2026-09-19T00:04:56.374Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_jt9j4r",
+    "scrapeCandidates": [],
+    "ts": 1789776296374,
+    "videoLinksSeen": 22
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1782268407000,
+    "baselineDate": "2026-06-24T02:33:27.000Z",
+    "id": "1789776298451_zofog0",
+    "liveMax": 1782268407000,
+    "liveMaxDate": "2026-06-24T02:33:27.000Z",
+    "loggedAt": "2026-09-19T00:04:58.449Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_vuvyju",
+    "scrapeCandidates": [],
+    "ts": 1789776298449,
+    "videoLinksSeen": 1
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1783718934000,
+    "baselineDate": "2026-07-10T21:28:54.000Z",
+    "id": "1789776300593_q2v7e1",
+    "liveMax": 1783718934000,
+    "liveMaxDate": "2026-07-10T21:28:54.000Z",
+    "loggedAt": "2026-09-19T00:05:00.483Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_z8eyp9",
+    "scrapeCandidates": [],
+    "ts": 1789776300483,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1775523999000,
+    "baselineDate": "2026-04-07T01:06:39.000Z",
+    "id": "1789776302722_qb78u2",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:05:02.705Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_9exv6t",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776302705,
+    "videoLinksSeen": 32
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1774757235000,
+    "baselineDate": "2026-03-29T04:07:15.000Z",
+    "id": "1789776308991_f3sj77",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:05:08.987Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_encwb",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776308987,
+    "videoLinksSeen": 26
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1763996273000,
+    "baselineDate": "2025-11-24T14:57:53.000Z",
+    "id": "1789776316001_3fa01d",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:05:15.937Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_8xoil3",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776315937,
+    "videoLinksSeen": 30
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1760825902000,
+    "baselineDate": "2025-10-18T22:18:22.000Z",
+    "id": "1789776322330_w79emm",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:05:22.315Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_dm8bt3",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776322315,
+    "videoLinksSeen": 28
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1771275919000,
+    "baselineDate": "2026-02-16T21:05:19.000Z",
+    "id": "1789776330027_rr608f",
+    "liveMax": 1788999225000,
+    "liveMaxDate": "2026-09-10T00:13:45.000Z",
+    "loggedAt": "2026-09-19T00:05:30.015Z",
+    "markedFalsePositive": true,
+    "outcome": "stopped_scrape",
+    "profile": "user_ac4kv6",
+    "scrapeCandidates": [
+      {
+        "date": "2026-09-10T00:13:45.000Z",
+        "url": "https://www.tiktok.com/@6853310451996984326/video/7683693166184172814"
+      }
+    ],
+    "ts": 1789776330015,
+    "videoLinksSeen": 25
+  },
+  {
+    "badgeCandidates": [],
+    "badgeText": null,
+    "baseline": 1714256582000,
+    "baselineDate": "2024-04-27T22:23:02.000Z",
+    "id": "1789776335932_n4wwi3",
+    "liveMax": 1714256582000,
+    "liveMaxDate": "2024-04-27T22:23:02.000Z",
+    "loggedAt": "2026-09-19T00:05:35.930Z",
+    "markedFalsePositive": null,
+    "outcome": "advanced_no_new",
+    "profile": "user_cuedio",
+    "scrapeCandidates": [],
+    "ts": 1789776335930,
+    "videoLinksSeen": 22
+  }
+]
