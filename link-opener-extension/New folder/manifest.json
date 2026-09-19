@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Link Batch Opener",
+  "version": "1.4",
+  "permissions": ["tabs", "scripting", "storage"],
+  "host_permissions": ["file:///*", "https://www.tiktok.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["file:///*"],
+      "js": ["content.js"]
+    },
+    {
+      "matches": ["https://www.tiktok.com/*"],
+      "js": ["tiktok_meta.js", "stagger_nav.js", "tiktok_ui.js"]
+    }
+  ]
+}
