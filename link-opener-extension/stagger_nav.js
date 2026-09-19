@@ -499,27 +499,27 @@
         // /photo/ in their URL instead of /video/.
         const hasNewVideos = async () => {
             if (!isContextValid()) return false;
-            // 1. Check userscript element (external signal - not under our control,
-            // so we can't guarantee it excludes photos, but it's still useful as
-            // a quick first check).
+            // 1. Check userscript element (external signal)
             const newCountElement = document.getElementById('tt-thumb-meta__new-count');
-            if (newCountElement && parseInt(newCountElement.textContent) > 0) return true;
+            if (newCountElement) {
+                const count = parseInt(newCountElement.textContent);
+                if (count > 0) return true;
+                if (count === 0) return false;
+            }
 
-            // 2. Check baselines directly (robust fallback, video-only)
+            // 2. Check baselines directly (robust fallback, video-only, profile cards only)
             const res = await chrome.storage.local.get("staggered_scan_baselines");
             const baselines = res.staggered_scan_baselines || {};
             const handleMatch = location.pathname.match(/^\/(@[^/]+)/);
             const handle = handleMatch ? handleMatch[1] : null;
-            // A missing entry means this profile has never been scanned
-            // before (tiktok_meta.js only ever stores a value > 0) - not
-            // that its baseline is 0. Treating "never scanned" as 0 would
-            // make every video on it look newer than the baseline and
-            // false-positive on the very first pass.
+            if (!handle) return false;
+
             const rawBaseline = handle ? baselines[`tiktok_last_post:${handle}`] : null;
             const baseline = rawBaseline ? rawBaseline : Infinity;
 
-            const links = document.querySelectorAll('a[href*="/video/"]');
+            const links = document.querySelectorAll('[data-e2e="user-post-item"] a[href*="/video/"]');
             for (const a of links) {
+                if (!a.href.includes(`/${handle}/video/`)) continue;
                 const postIdMatch = a.href.match(/\/video\/(\d{10,})/);
                 if (postIdMatch) {
                     try {
@@ -772,26 +772,33 @@
 
                 // 2. Check for the userscript element as a primary signal
                 const newCountElement = document.getElementById('tt-thumb-meta__new-count');
-                if (newCountElement && parseInt(newCountElement.textContent) > 0) {
-                    console.log("Staggered Navigation: New videos found via userscript signal! Stopping automation.");
-                    clearInterval(pollInterval);
-                    await logPassSnapshot('stopped_badge', { baseline, badgeText: newCountElement.textContent });
-                    chrome.runtime.sendMessage({ type: "PLAY_SOUND", sound: "new_videos" });
-                    return;
+                if (newCountElement) {
+                    const badgeVal = parseInt(newCountElement.textContent);
+                    if (badgeVal > 0) {
+                        console.log("Staggered Navigation: New videos found via userscript signal! Stopping automation.");
+                        clearInterval(pollInterval);
+                        await logPassSnapshot('stopped_badge', { baseline, badgeText: newCountElement.textContent });
+                        chrome.runtime.sendMessage({ type: "PLAY_SOUND", sound: "new_videos" });
+                        return;
+                    }
                 }
 
-                // 3. Direct scraping fallback to ensure robustness (videos only, never photos)
-                const links = document.querySelectorAll('a[href*="/video/"]');
+                // 3. Direct scraping fallback to ensure robustness (videos only, never photos, profile cards only)
+                // If userscript already rendered badge as 0, skip fallback scraping as userscript has evaluated profile cards.
                 const scrapeCandidates = [];
-                for (const a of links) {
-                    const postIdMatch = a.href.match(/\/video\/(\d{10,})/);
-                    if (postIdMatch) {
-                        try {
-                            const ts = Number(BigInt(postIdMatch[1]) >> 32n) * 1000;
-                            if (ts > baseline) {
-                                scrapeCandidates.push({ url: a.href.split('?')[0], ts });
-                            }
-                        } catch(e) {}
+                if (!newCountElement || parseInt(newCountElement.textContent) > 0) {
+                    const links = document.querySelectorAll('[data-e2e="user-post-item"] a[href*="/video/"]');
+                    for (const a of links) {
+                        if (handle && !a.href.includes(`/${handle}/video/`)) continue;
+                        const postIdMatch = a.href.match(/\/video\/(\d{10,})/);
+                        if (postIdMatch) {
+                            try {
+                                const ts = Number(BigInt(postIdMatch[1]) >> 32n) * 1000;
+                                if (ts > baseline) {
+                                    scrapeCandidates.push({ url: a.href.split('?')[0], ts });
+                                }
+                            } catch(e) {}
+                        }
                     }
                 }
 

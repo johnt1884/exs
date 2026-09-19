@@ -67,7 +67,7 @@
                 // Only videos count towards "new content" detection - photos
                 // (URLs contain /photo/ instead of /video/) are excluded.
                 const postIdMatch = link.href.match(/\/video\/(\d{10,})/);
-                if (postIdMatch) {
+                if (postIdMatch && link.href.includes(`/${handle}/video/`)) {
                     const ts = deriveDateFromPostId(postIdMatch[1]);
                     if (ts && ts > maxTimestamp) {
                         maxTimestamp = ts;
