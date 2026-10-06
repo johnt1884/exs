@@ -501,51 +501,6 @@ function createBottomBar() {
         }
     };
 
-    const clearVideoSelectionsBtn = document.createElement("button");
-    clearVideoSelectionsBtn.textContent = "Clear Saved Video Selections";
-    clearVideoSelectionsBtn.title = "One-off cleanup: wipes every persisted TikTok video-checkbox selection across all profiles (not just this page)";
-    clearVideoSelectionsBtn.onclick = async () => {
-        if (!confirm("This clears the persisted video-checkbox selection for EVERY TikTok profile (not just this page). Continue?")) return;
-        const details = await clearAllTikTokVideoSelections();
-        if (details.length === 0) {
-            alert("No saved video selections found.");
-            return;
-        }
-        details.sort((a, b) => b.urls.length - a.urls.length);
-        const lines = details.map(d => `${d.handle}: ${d.urls.length} video(s)`).join("\n");
-        console.log("Link Batch Opener: cleared video selections", details);
-        alert(`Cleared saved video selections for ${details.length} profile(s):\n\n${lines}\n\n(Full URLs also logged to the console.)`);
-    };
-
-    const exportFpLogBtn = document.createElement("button");
-    exportFpLogBtn.textContent = "Export False-Positive Log";
-    exportFpLogBtn.title = "Download the automatic-load detection log recorded on TikTok profile pages (usernames anonymized)";
-    exportFpLogBtn.onclick = async () => {
-        const all = await safeStorage.get(TIKTOK_FP_LOG_KEY);
-        const log = all[TIKTOK_FP_LOG_KEY] || [];
-        if (log.length === 0) {
-            alert("Log is empty.");
-            return;
-        }
-        const blob = new Blob([JSON.stringify(log, null, 2)], { type: "application/json" });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = `tmk_fp_log_${new Date().toISOString().slice(0, 10)}.json`;
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-        setTimeout(() => URL.revokeObjectURL(url), 5000);
-    };
-
-    const clearFpLogBtn = document.createElement("button");
-    clearFpLogBtn.textContent = "Clear False-Positive Log";
-    clearFpLogBtn.onclick = async () => {
-        if (!confirm("Clear the entire false-positive diagnostic log? Export it first if you still need it.")) return;
-        await safeStorage.remove(TIKTOK_FP_LOG_KEY);
-        alert("Log cleared.");
-    };
-
     countSpan = document.createElement("span");
     countSpan.textContent = "0 selected";
 
@@ -597,9 +552,6 @@ function createBottomBar() {
     bar.appendChild(loadSelectedStaggeredBtn);
     bar.appendChild(sortSelect);
     bar.appendChild(categoryBtn);
-    bar.appendChild(clearVideoSelectionsBtn);
-    bar.appendChild(exportFpLogBtn);
-    bar.appendChild(clearFpLogBtn);
     bar.appendChild(countSpan);
     bar.appendChild(autoLoadContainer);
 
@@ -1148,11 +1100,16 @@ async function addCheckboxes() {
         const ts = await getTimestampForLink(link);
         const dateStr = ts ? formatDate(new Date(ts)) : "";
 
-        if (dateStr && !link.parentElement.querySelector(".date-suffix")) {
-            const suffix = document.createElement("b");
-            suffix.className = "date-suffix";
+        let suffix = link.parentElement ? link.parentElement.querySelector(".date-suffix") : null;
+        if (dateStr) {
+            if (!suffix) {
+                suffix = document.createElement("b");
+                suffix.className = "date-suffix";
+                link.parentNode.insertBefore(suffix, link.nextSibling);
+            }
             suffix.textContent = ` [${dateStr}]`;
-            link.parentNode.insertBefore(suffix, link.nextSibling);
+        } else if (suffix) {
+            suffix.remove();
         }
 
         // Special link handling: " #" suffix
@@ -1372,6 +1329,25 @@ async function initialize() {
         console.log("Link Batch Opener: Category filters applied.");
     } catch (e) {
         console.error("Link Batch Opener: Failed to apply category filters.", e);
+    }
+
+    // Listen for storage changes so dates and category/custom_header sort buckets update dynamically
+    if (isContextValid() && chrome.storage && chrome.storage.onChanged) {
+        chrome.storage.onChanged.addListener(async (changes, namespace) => {
+            if (namespace === "local") {
+                const hasDateChanges = Object.keys(changes).some(k => k.startsWith("tiktok_last_post:"));
+                if (hasDateChanges) {
+                    console.log("Link Batch Opener: Storage date changes detected, updating dates and sort...");
+                    await addCheckboxes();
+                    const key = getPageKey(SORT_MODE_KEY_PREFIX);
+                    const result = await safeStorage.get(key);
+                    const currentMode = result[key] || "unsorted";
+                    if (currentMode !== "unsorted") {
+                        await applySort(currentMode);
+                    }
+                }
+            }
+        });
     }
 
     console.log("Link Batch Opener: Initialization complete.");

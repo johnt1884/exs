@@ -131,62 +131,6 @@
         };
 
         lastLoggedEntryId = await appendFpLog(entry);
-        updateFpButtonState();
-    }
-
-    function createFpButton() {
-        if (!isContextValid() || document.getElementById('stagger-fp-btn')) return null;
-        const btn = document.createElement('button');
-        btn.id = 'stagger-fp-btn';
-        btn.textContent = 'Mark FP';
-        btn.title = 'Mark the last automatic-load decision on this page as a false positive';
-        btn.style.position = 'fixed';
-        // Moved off the top-left corner and shrunk, in case something else
-        // on the page was landing stray clicks there - see the confirm()
-        // below for the main defense either way.
-        btn.style.bottom = '20px';
-        btn.style.left = '20px';
-        btn.style.top = 'auto';
-        btn.style.zIndex = '999999';
-        btn.style.padding = '6px 10px';
-        btn.style.background = '#000';
-        btn.style.color = '#fff';
-        btn.style.border = '2px solid #ff6b6b';
-        btn.style.borderRadius = '6px';
-        btn.style.cursor = 'pointer';
-        btn.style.fontSize = '12px';
-        btn.style.opacity = '0.35';
-        btn.disabled = true;
-
-        btn.onclick = async () => {
-            if (!lastLoggedEntryId || btn.disabled) return;
-            // Require an explicit confirmation - a stray/accidental click
-            // landing on the button can satisfy a click, but a native
-            // confirm() dialog needs a second, separate deliberate action
-            // to actually mark anything.
-            if (!confirm('Mark the automatic-load decision on THIS page as a false positive?')) return;
-            btn.disabled = true;
-            const ok = await markFpLogEntry(lastLoggedEntryId, true);
-            btn.textContent = ok ? 'Marked \u2713' : 'Mark FP';
-            btn.style.borderColor = ok ? '#4ecdc4' : '#ff6b6b';
-            btn.style.opacity = ok ? '1' : '0.35';
-            if (!ok) btn.disabled = false;
-        };
-
-        document.body.appendChild(btn);
-        return btn;
-    }
-
-    function updateFpButtonState() {
-        let btn = document.getElementById('stagger-fp-btn');
-        if (!btn) btn = createFpButton();
-        if (!btn) return;
-        if (lastLoggedEntryId) {
-            btn.disabled = false;
-            btn.textContent = 'Mark FP';
-            btn.style.borderColor = '#ff6b6b';
-            btn.style.opacity = '1';
-        }
     }
 
     function isContextValid() {
@@ -697,7 +641,6 @@
     if (response && response.isStaggered) {
         createForwardBtn();
         createBackBtn(!!response.hasPrevious);
-        if (isTikTokPage) createFpButton();
         if (response.total) {
             createCounter(response.currentIndex, response.total);
         }
