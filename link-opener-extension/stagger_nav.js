@@ -458,7 +458,7 @@
             const handle = handleMatch ? handleMatch[1] : null;
             if (!handle) return false;
 
-            const rawBaseline = handle ? baselines[`tiktok_last_post:${handle}`] : null;
+            const rawBaseline = handle ? (baselines[`tiktok_last_post:${handle}`] || baselines[`tiktok_last_post:${handle.toLowerCase()}`]) : null;
             const baseline = rawBaseline ? rawBaseline : Infinity;
 
             const links = document.querySelectorAll('[data-e2e="user-post-item"] a[href*="/video/"]');
@@ -674,7 +674,7 @@
             const handle = handleMatch ? handleMatch[1] : null;
             // Same reasoning as in hasNewVideos(): a missing entry means
             // "never scanned before", not "baseline is 0".
-            const rawBaseline = handle ? baselines[`tiktok_last_post:${handle}`] : null;
+            const rawBaseline = handle ? (baselines[`tiktok_last_post:${handle}`] || baselines[`tiktok_last_post:${handle.toLowerCase()}`]) : null;
             const baseline = rawBaseline ? rawBaseline : Infinity;
 
             let pollCount = 0;

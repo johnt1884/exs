@@ -43,10 +43,14 @@
         writeQueue = writeQueue.then(async () => {
             if (!isContextValid()) return;
             try {
-                const res = await chrome.storage.local.get(key);
-                const existing = res[key] || 0;
+                const lowerKey = key.toLowerCase();
+                const res = await chrome.storage.local.get([key, lowerKey]);
+                const existing = Math.max(res[key] || 0, res[lowerKey] || 0);
                 if (maxTimestamp > existing) {
-                    await chrome.storage.local.set({ [key]: maxTimestamp });
+                    await chrome.storage.local.set({
+                        [key]: maxTimestamp,
+                        [lowerKey]: maxTimestamp
+                    });
                 }
             } catch (e) {}
         }).catch(() => {});
@@ -62,12 +66,16 @@
             let maxTimestamp = 0;
 
             cards.forEach(card => {
-                const link = card.querySelector('a[href]');
+                const link = card.querySelector('a[href*="/video/"]');
                 if (!link) return;
                 // Only videos count towards "new content" detection - photos
                 // (URLs contain /photo/ instead of /video/) are excluded.
                 const postIdMatch = link.href.match(/\/video\/(\d{10,})/);
-                if (postIdMatch && link.href.includes(`/${handle}/video/`)) {
+                if (postIdMatch) {
+                    const linkHandleMatch = link.href.match(/\/(@[^\/]+)\/video\//);
+                    if (linkHandleMatch && linkHandleMatch[1].toLowerCase() !== handle.toLowerCase()) {
+                        return;
+                    }
                     const ts = deriveDateFromPostId(postIdMatch[1]);
                     if (ts && ts > maxTimestamp) {
                         maxTimestamp = ts;

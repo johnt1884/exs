@@ -222,9 +222,11 @@ async function getTimestampForLink(link) {
         if (handleMatch) {
             const handle = handleMatch[1];
             const key = `tiktok_last_post:${handle}`;
-            const result = await safeStorage.get(key);
-            if (result[key]) {
-                dateObj = new Date(result[key]);
+            const lowerKey = key.toLowerCase();
+            const result = await safeStorage.get([key, lowerKey]);
+            const val = result[key] || result[lowerKey];
+            if (val) {
+                dateObj = new Date(val);
             }
         }
     }
