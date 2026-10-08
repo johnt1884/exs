@@ -131,62 +131,6 @@
         };
 
         lastLoggedEntryId = await appendFpLog(entry);
-        updateFpButtonState();
-    }
-
-    function createFpButton() {
-        if (!isContextValid() || document.getElementById('stagger-fp-btn')) return null;
-        const btn = document.createElement('button');
-        btn.id = 'stagger-fp-btn';
-        btn.textContent = 'Mark FP';
-        btn.title = 'Mark the last automatic-load decision on this page as a false positive';
-        btn.style.position = 'fixed';
-        // Moved off the top-left corner and shrunk, in case something else
-        // on the page was landing stray clicks there - see the confirm()
-        // below for the main defense either way.
-        btn.style.bottom = '20px';
-        btn.style.left = '20px';
-        btn.style.top = 'auto';
-        btn.style.zIndex = '999999';
-        btn.style.padding = '6px 10px';
-        btn.style.background = '#000';
-        btn.style.color = '#fff';
-        btn.style.border = '2px solid #ff6b6b';
-        btn.style.borderRadius = '6px';
-        btn.style.cursor = 'pointer';
-        btn.style.fontSize = '12px';
-        btn.style.opacity = '0.35';
-        btn.disabled = true;
-
-        btn.onclick = async () => {
-            if (!lastLoggedEntryId || btn.disabled) return;
-            // Require an explicit confirmation - a stray/accidental click
-            // landing on the button can satisfy a click, but a native
-            // confirm() dialog needs a second, separate deliberate action
-            // to actually mark anything.
-            if (!confirm('Mark the automatic-load decision on THIS page as a false positive?')) return;
-            btn.disabled = true;
-            const ok = await markFpLogEntry(lastLoggedEntryId, true);
-            btn.textContent = ok ? 'Marked \u2713' : 'Mark FP';
-            btn.style.borderColor = ok ? '#4ecdc4' : '#ff6b6b';
-            btn.style.opacity = ok ? '1' : '0.35';
-            if (!ok) btn.disabled = false;
-        };
-
-        document.body.appendChild(btn);
-        return btn;
-    }
-
-    function updateFpButtonState() {
-        let btn = document.getElementById('stagger-fp-btn');
-        if (!btn) btn = createFpButton();
-        if (!btn) return;
-        if (lastLoggedEntryId) {
-            btn.disabled = false;
-            btn.textContent = 'Mark FP';
-            btn.style.borderColor = '#ff6b6b';
-            btn.style.opacity = '1';
-        }
     }
 
     function isContextValid() {
@@ -499,27 +443,27 @@
         // /photo/ in their URL instead of /video/.
         const hasNewVideos = async () => {
             if (!isContextValid()) return false;
-            // 1. Check userscript element (external signal - not under our control,
-            // so we can't guarantee it excludes photos, but it's still useful as
-            // a quick first check).
+            // 1. Check userscript element (external signal)
             const newCountElement = document.getElementById('tt-thumb-meta__new-count');
-            if (newCountElement && parseInt(newCountElement.textContent) > 0) return true;
+            if (newCountElement) {
+                const count = parseInt(newCountElement.textContent);
+                if (count > 0) return true;
+                if (count === 0) return false;
+            }
 
-            // 2. Check baselines directly (robust fallback, video-only)
+            // 2. Check baselines directly (robust fallback, video-only, profile cards only)
             const res = await chrome.storage.local.get("staggered_scan_baselines");
             const baselines = res.staggered_scan_baselines || {};
             const handleMatch = location.pathname.match(/^\/(@[^/]+)/);
             const handle = handleMatch ? handleMatch[1] : null;
-            // A missing entry means this profile has never been scanned
-            // before (tiktok_meta.js only ever stores a value > 0) - not
-            // that its baseline is 0. Treating "never scanned" as 0 would
-            // make every video on it look newer than the baseline and
-            // false-positive on the very first pass.
-            const rawBaseline = handle ? baselines[`tiktok_last_post:${handle}`] : null;
+            if (!handle) return false;
+
+            const rawBaseline = handle ? (baselines[`tiktok_last_post:${handle}`] || baselines[`tiktok_last_post:${handle.toLowerCase()}`]) : null;
             const baseline = rawBaseline ? rawBaseline : Infinity;
 
-            const links = document.querySelectorAll('a[href*="/video/"]');
+            const links = document.querySelectorAll('[data-e2e="user-post-item"] a[href*="/video/"]');
             for (const a of links) {
+                if (!a.href.includes(`/${handle}/video/`)) continue;
                 const postIdMatch = a.href.match(/\/video\/(\d{10,})/);
                 if (postIdMatch) {
                     try {
@@ -697,7 +641,6 @@
     if (response && response.isStaggered) {
         createForwardBtn();
         createBackBtn(!!response.hasPrevious);
-        if (isTikTokPage) createFpButton();
         if (response.total) {
             createCounter(response.currentIndex, response.total);
         }
@@ -731,7 +674,7 @@
             const handle = handleMatch ? handleMatch[1] : null;
             // Same reasoning as in hasNewVideos(): a missing entry means
             // "never scanned before", not "baseline is 0".
-            const rawBaseline = handle ? baselines[`tiktok_last_post:${handle}`] : null;
+            const rawBaseline = handle ? (baselines[`tiktok_last_post:${handle}`] || baselines[`tiktok_last_post:${handle.toLowerCase()}`]) : null;
             const baseline = rawBaseline ? rawBaseline : Infinity;
 
             let pollCount = 0;
@@ -772,26 +715,33 @@
 
                 // 2. Check for the userscript element as a primary signal
                 const newCountElement = document.getElementById('tt-thumb-meta__new-count');
-                if (newCountElement && parseInt(newCountElement.textContent) > 0) {
-                    console.log("Staggered Navigation: New videos found via userscript signal! Stopping automation.");
-                    clearInterval(pollInterval);
-                    await logPassSnapshot('stopped_badge', { baseline, badgeText: newCountElement.textContent });
-                    chrome.runtime.sendMessage({ type: "PLAY_SOUND", sound: "new_videos" });
-                    return;
+                if (newCountElement) {
+                    const badgeVal = parseInt(newCountElement.textContent);
+                    if (badgeVal > 0) {
+                        console.log("Staggered Navigation: New videos found via userscript signal! Stopping automation.");
+                        clearInterval(pollInterval);
+                        await logPassSnapshot('stopped_badge', { baseline, badgeText: newCountElement.textContent });
+                        chrome.runtime.sendMessage({ type: "PLAY_SOUND", sound: "new_videos" });
+                        return;
+                    }
                 }
 
-                // 3. Direct scraping fallback to ensure robustness (videos only, never photos)
-                const links = document.querySelectorAll('a[href*="/video/"]');
+                // 3. Direct scraping fallback to ensure robustness (videos only, never photos, profile cards only)
+                // If userscript already rendered badge as 0, skip fallback scraping as userscript has evaluated profile cards.
                 const scrapeCandidates = [];
-                for (const a of links) {
-                    const postIdMatch = a.href.match(/\/video\/(\d{10,})/);
-                    if (postIdMatch) {
-                        try {
-                            const ts = Number(BigInt(postIdMatch[1]) >> 32n) * 1000;
-                            if (ts > baseline) {
-                                scrapeCandidates.push({ url: a.href.split('?')[0], ts });
-                            }
-                        } catch(e) {}
+                if (!newCountElement || parseInt(newCountElement.textContent) > 0) {
+                    const links = document.querySelectorAll('[data-e2e="user-post-item"] a[href*="/video/"]');
+                    for (const a of links) {
+                        if (handle && !a.href.includes(`/${handle}/video/`)) continue;
+                        const postIdMatch = a.href.match(/\/video\/(\d{10,})/);
+                        if (postIdMatch) {
+                            try {
+                                const ts = Number(BigInt(postIdMatch[1]) >> 32n) * 1000;
+                                if (ts > baseline) {
+                                    scrapeCandidates.push({ url: a.href.split('?')[0], ts });
+                                }
+                            } catch(e) {}
+                        }
                     }
                 }
 

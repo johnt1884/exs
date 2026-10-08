@@ -110,7 +110,11 @@
         if (!currentSelectionHandle || !isContextValid()) return;
         try {
             const key = SELECTED_VIDEOS_PREFIX + currentSelectionHandle;
-            await chrome.storage.local.set({ [key]: Array.from(selectedLinks) });
+            if (selectedLinks.size > 0) {
+                await chrome.storage.local.set({ [key]: Array.from(selectedLinks) });
+            } else {
+                await chrome.storage.local.remove(key);
+            }
         } catch (e) {
             console.warn("Link Batch Opener: Failed to persist selected videos.", e);
         }
