@@ -213,14 +213,36 @@ function deriveDateFromPostId(postId) {
     }
 }
 
+function extractTikTokHandle(href) {
+    if (!href) return null;
+    let decoded = href;
+    try { decoded = decodeURIComponent(href); } catch (e) {}
+
+    const m1 = decoded.match(/tiktok\.com\/(@[a-zA-Z0-9_.]+)/i);
+    if (m1) return m1[1];
+
+    const m2 = decoded.match(/ssstiktok\.dev\/#username=@?([a-zA-Z0-9_.]+)/i);
+    if (m2) return '@' + m2[1];
+
+    const m3 = decoded.match(/tiktok\.com\/([a-zA-Z0-9_.]+)/i);
+    if (m3) {
+        const val = m3[1];
+        const reserved = new Set(["video", "photo", "foryou", "explore", "tag", "music", "live", "about", "signup", "login", "upload", "coin", "setting"]);
+        if (!reserved.has(val.toLowerCase())) {
+            return val.startsWith('@') ? val : '@' + val;
+        }
+    }
+    return null;
+}
+
 async function getTimestampForLink(link) {
-    const postId = extractPostIdFromHref(link.href);
+    const href = link.href;
+    const postId = extractPostIdFromHref(href);
     let dateObj = deriveDateFromPostId(postId);
 
     if (!dateObj) {
-        const handleMatch = link.href.match(/tiktok\.com\/(@[^/]+)\/?$/);
-        if (handleMatch) {
-            const handle = handleMatch[1];
+        const handle = extractTikTokHandle(href);
+        if (handle) {
             const key = `tiktok_last_post:${handle}`;
             const lowerKey = key.toLowerCase();
             const result = await safeStorage.get([key, lowerKey]);
